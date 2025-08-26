@@ -67,7 +67,7 @@ public class OdontologoService implements IOdontologoService {
     }
 
     @Override
-    public OdontologoResponseDTO actualizarOdontologo(String dni, OdontologoUpdateDTO dto) {
+    public OdontologoResponseDTO actualizarOdontologo(String dni, OdontologoUpdateDTO dto) throws ResourceNotFoundException{
         Odontologo odontologo = odontologoRepository.findById(dni)
                 .orElseThrow(() -> new RuntimeException("Odontólogo no encontrado"));
 

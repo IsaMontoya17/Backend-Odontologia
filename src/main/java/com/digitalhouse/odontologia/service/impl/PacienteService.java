@@ -1,6 +1,11 @@
 package com.digitalhouse.odontologia.service.impl;
 
+import com.digitalhouse.odontologia.dto.DomicilioUpdateDTO;
+import com.digitalhouse.odontologia.dto.PacienteResponseDTO;
+import com.digitalhouse.odontologia.dto.PacienteUpdateDTO;
+import com.digitalhouse.odontologia.entity.Domicilio;
 import com.digitalhouse.odontologia.entity.Paciente;
+import com.digitalhouse.odontologia.entity.Turno;
 import com.digitalhouse.odontologia.exception.BadRequestException;
 import com.digitalhouse.odontologia.exception.HandleConflictException;
 import com.digitalhouse.odontologia.exception.ResourceNotFoundException;
@@ -13,6 +18,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class PacienteService implements IPacienteService {
@@ -43,7 +49,7 @@ public class PacienteService implements IPacienteService {
             logger.warn("Todos los campos del paciente y del domicilio son obligatorios.");
             throw new BadRequestException("Todos los campos del paciente y del domicilio son obligatorios.");
         }
-        
+
         Paciente pacienteGuardado = pacienteRepository.save(paciente);
 
         logger.info("Paciente guardado con DNI: " + pacienteGuardado.getDni());
@@ -94,6 +100,52 @@ public class PacienteService implements IPacienteService {
         }
 
         return todosLosPacientes;
+    }
+
+    @Override
+    public PacienteResponseDTO actualizarPaciente(String dni, PacienteUpdateDTO dto) throws ResourceNotFoundException {
+        Paciente paciente = pacienteRepository.findById(dni)
+                .orElseThrow(() -> new ResourceNotFoundException("Paciente no encontrado"));
+
+        if (dto.getNombre() != null) paciente.setNombre(dto.getNombre());
+        if (dto.getApellido() != null) paciente.setApellido(dto.getApellido());
+        if (dto.getFechaNacimiento() != null) paciente.setFechaNacimiento(dto.getFechaNacimiento());
+
+        if (dto.getDomicilio() != null) {
+            if (paciente.getDomicilio() == null) paciente.setDomicilio(new Domicilio());
+            Domicilio domicilio = paciente.getDomicilio();
+            DomicilioUpdateDTO dDto = dto.getDomicilio();
+            if (dDto.getCalle() != null) domicilio.setCalle(dDto.getCalle());
+            if (dDto.getNumero() != null) domicilio.setNumero(dDto.getNumero());
+            if (dDto.getBarrio() != null) domicilio.setBarrio(dDto.getBarrio());
+            if (dDto.getCiudad() != null) domicilio.setCiudad(dDto.getCiudad());
+            if (dDto.getDepartamento() != null) domicilio.setDepartamento(dDto.getDepartamento());
+        }
+
+        Paciente actualizado = pacienteRepository.save(paciente);
+
+        PacienteResponseDTO responseDTO = new PacienteResponseDTO();
+        responseDTO.setDni(actualizado.getDni());
+        responseDTO.setNombre(actualizado.getNombre());
+        responseDTO.setApellido(actualizado.getApellido());
+        responseDTO.setFechaNacimiento(actualizado.getFechaNacimiento());
+
+        if (actualizado.getDomicilio() != null) {
+            var domicilioResponse = new com.digitalhouse.odontologia.dto.DomicilioResponseDTO();
+            domicilioResponse.setCalle(actualizado.getDomicilio().getCalle());
+            domicilioResponse.setNumero(actualizado.getDomicilio().getNumero());
+            domicilioResponse.setBarrio(actualizado.getDomicilio().getBarrio());
+            domicilioResponse.setCiudad(actualizado.getDomicilio().getCiudad());
+            domicilioResponse.setDepartamento(actualizado.getDomicilio().getDepartamento());
+            responseDTO.setDomicilio(domicilioResponse);
+        }
+
+        responseDTO.setTurnosIds(actualizado.getTurnos()
+                .stream()
+                .map(Turno::getId)
+                .collect(Collectors.toSet()));
+
+        return responseDTO;
     }
 
 }

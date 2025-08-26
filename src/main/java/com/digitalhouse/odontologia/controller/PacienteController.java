@@ -1,5 +1,7 @@
 package com.digitalhouse.odontologia.controller;
 
+import com.digitalhouse.odontologia.dto.PacienteResponseDTO;
+import com.digitalhouse.odontologia.dto.PacienteUpdateDTO;
 import com.digitalhouse.odontologia.entity.Paciente;
 import com.digitalhouse.odontologia.exception.BadRequestException;
 import com.digitalhouse.odontologia.exception.HandleConflictException;
@@ -65,6 +67,18 @@ public class PacienteController {
         }
     }
 
+    @PatchMapping("/{dni}")
+    public ResponseEntity<PacienteResponseDTO> actualizarPaciente(
+            @PathVariable String dni,
+            @RequestBody PacienteUpdateDTO dto) {
+
+        try {
+            PacienteResponseDTO actualizado = pacienteService.actualizarPaciente(dni, dto);
+            return ResponseEntity.ok(actualizado);
+        } catch (ResourceNotFoundException e) {
+            return ResponseEntity.notFound().build();
+        }
+    }
 
 
 }
