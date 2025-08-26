@@ -10,12 +10,7 @@ import java.util.List;
 
 public interface IPacienteService {
     Paciente guardar(Paciente paciente) throws HandleConflictException;
-
-    Paciente buscarPorId(Long id)throws ResourceNotFoundException;
-
-    void eliminar(Long id) throws ResourceNotFoundException;
-
-    Paciente actualizar(Paciente paciente)throws ResourceNotFoundException, BadRequestException;
-
+    Paciente buscarPorId(String dni)throws ResourceNotFoundException;
+    void eliminar(String dni) throws ResourceNotFoundException;
     List<Paciente> listar();
 }

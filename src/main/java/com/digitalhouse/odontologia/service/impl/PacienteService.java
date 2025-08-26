@@ -25,7 +25,7 @@ public class PacienteService implements IPacienteService {
     @Override
     public Paciente guardar(Paciente paciente) throws HandleConflictException, BadRequestException {
 
-        Optional<Paciente> pacienteExistente = pacienteRepository.findByDni(paciente.getDni());
+        Optional<Paciente> pacienteExistente = pacienteRepository.findById(paciente.getDni());
         if (pacienteExistente.isPresent()) {
             logger.warn("Ya existe un paciente con el DNI: " + paciente.getDni());
             throw new HandleConflictException("Ya existe un paciente con el DNI: " + paciente.getDni());
@@ -40,63 +40,33 @@ public class PacienteService implements IPacienteService {
             throw new BadRequestException("Todos los campos del domicilio son obligatorios.");
         }
         Paciente pacienteGuardado = pacienteRepository.save(paciente);
-        logger.info("Paciente guardado con ID: " + pacienteGuardado.getId());
+        logger.info("Paciente guardado con ID: " + pacienteGuardado.getDni());
         logger.info("Domicilio guardado con ID: " + pacienteGuardado.getDomicilio().getId());
 
         return pacienteGuardado;
     }
 
     @Override
-    public Paciente buscarPorId(Long id) throws ResourceNotFoundException {
-        Optional<Paciente> pacienteEncontrado = pacienteRepository.findById(id);
+    public Paciente buscarPorId(String dni) throws ResourceNotFoundException {
+        Optional<Paciente> pacienteEncontrado = pacienteRepository.findById(dni);
         if (pacienteEncontrado.isPresent()) {
             return pacienteEncontrado.get();
         } else {
-            logger.warn("No se encontró el paciente con ID: " + id);
-            throw new ResourceNotFoundException("No se encontró el paciente con ID: " + id);
+            logger.warn("No se encontró el paciente con ID: " + dni);
+            throw new ResourceNotFoundException("No se encontró el paciente con ID: " + dni);
         }
     }
 
     @Override
-    public void eliminar(Long id) throws ResourceNotFoundException {
-        logger.info("Intentando eliminar el paciente con ID: " + id);
-        if (pacienteRepository.existsById(id)) {
-            pacienteRepository.deleteById(id);
-            logger.info("Paciente con ID: " + id + " eliminado exitosamente.");
+    public void eliminar(String dni) throws ResourceNotFoundException {
+        logger.info("Intentando eliminar el paciente con ID: " + dni);
+        if (pacienteRepository.existsById(dni)) {
+            pacienteRepository.deleteById(dni);
+            logger.info("Paciente con ID: " + dni + " eliminado exitosamente.");
         } else {
-            logger.warn("No se puede eliminar el paciente porque no se encontró con ID: " + id);
-            throw new ResourceNotFoundException("No se puede eliminar el paciente porque no se encontró con ID: " + id);
+            logger.warn("No se puede eliminar el paciente porque no se encontró con ID: " + dni);
+            throw new ResourceNotFoundException("No se puede eliminar el paciente porque no se encontró con ID: " + dni);
         }
-    }
-
-    @Override
-    public Paciente actualizar(Paciente paciente) throws ResourceNotFoundException, BadRequestException {
-        logger.info("Actualizando paciente con ID: " + paciente.getId());
-
-        if (!pacienteRepository.existsById(paciente.getId())) {
-            logger.warn("No se puede actualizar el paciente porque no se encontró el paciente con ID: " + paciente.getId());
-            throw new ResourceNotFoundException("No se puede actualizar el paciente porque no se encontró el paciente con ID: " + paciente.getId());
-        }
-
-        String domicilioInfo = (paciente.getDomicilio() != null)
-                ? "Domicilio ID: " + paciente.getDomicilio().getId()
-                : "Domicilio no asignado";
-
-        logger.info("Información del paciente antes de actualizar: " +
-                "Paciente ID: " + paciente.getId() + ", " +
-                domicilioInfo);
-
-        Paciente pacienteActualizado = pacienteRepository.save(paciente);
-        logger.info("Paciente actualizado con ID: " + pacienteActualizado.getId());
-
-        if (pacienteActualizado.getDomicilio() != null) {
-            logger.info("Domicilio del paciente actualizado con ID: " + pacienteActualizado.getDomicilio().getId());
-        } else {
-            logger.warn("El paciente actualizado no tiene domicilio asignado.");
-            throw new BadRequestException("El paciente actualizado no tiene domicilio asignado.");
-        }
-
-        return pacienteActualizado;
     }
 
     @Override
@@ -112,7 +82,7 @@ public class PacienteService implements IPacienteService {
                         ? "Domicilio ID: " + paciente.getDomicilio().getId()
                         : "Domicilio no asignado";
 
-                logger.info("Paciente ID: " + paciente.getId() + ", " + domicilioInfo);
+                logger.info("Paciente ID: " + paciente.getDni() + ", " + domicilioInfo);
             }
         }
 

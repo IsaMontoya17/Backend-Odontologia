@@ -17,15 +17,20 @@ import java.util.Set;
 public class Paciente {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String nombre;
-    private String apellido;
+    @Column(length = 20, nullable = false, unique = true)
     private String dni;
-    private LocalDate fechaAlta;
+
+    @Column(length = 50, nullable = false)
+    private String nombre;
+
+    @Column(length = 50, nullable = false)
+    private String apellido;
+
+    @Column(nullable = false)
+    private LocalDate fechaNacimiento;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "domicilio_id")
+    @JoinColumn(name = "domicilio_id", nullable = false)
     private Domicilio domicilio;
 
     @OneToMany(mappedBy = "paciente")

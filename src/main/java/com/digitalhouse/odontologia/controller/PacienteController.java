@@ -19,10 +19,10 @@ public class PacienteController {
     @Autowired
     private IPacienteService pacienteService;
 
-    @GetMapping("/{id}")
-    public ResponseEntity<?> buscarPorId(@PathVariable Long id) {
+    @GetMapping("/{dni}")
+    public ResponseEntity<?> buscarPorId(@PathVariable String dni) {
         try {
-            Paciente paciente = pacienteService.buscarPorId(id);
+            Paciente paciente = pacienteService.buscarPorId(dni);
             return ResponseEntity.ok(paciente);
         } catch (ResourceNotFoundException e) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
@@ -53,10 +53,10 @@ public class PacienteController {
         }
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> eliminar(@PathVariable Long id) {
+    @DeleteMapping("/{dni}")
+    public ResponseEntity<String> eliminar(@PathVariable String dni) {
         try {
-            pacienteService.eliminar(id);
+            pacienteService.eliminar(dni);
             return ResponseEntity.status(HttpStatus.OK).body("Paciente eliminado correctamente");
         } catch (ResourceNotFoundException e) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
@@ -65,32 +65,6 @@ public class PacienteController {
         }
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<?> actualizar(@PathVariable Long id, @RequestBody Paciente paciente) {
-        try {
-            Paciente pacienteExistente = pacienteService.buscarPorId(id);
 
-            if (pacienteExistente != null) {
-                // El ID del paciente se mantiene igual
-                paciente.setId(id);
-
-                // El ID del domicilio se mantiene igual
-                if (pacienteExistente.getDomicilio() != null) {
-                    paciente.getDomicilio().setId(pacienteExistente.getDomicilio().getId());
-                }
-
-                Paciente pacienteActualizado = pacienteService.actualizar(paciente);
-                return ResponseEntity.ok(pacienteActualizado);
-            } else {
-                return ResponseEntity.notFound().build();
-            }
-        } catch (ResourceNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-        }catch (BadRequestException e){
-                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error interno al actualizar el paciente: " + e.getMessage());
-        }
-    }
 
 }

@@ -26,7 +26,7 @@ public class TurnoController {
     public ResponseEntity<?> registrarTurno(@RequestBody Map<String, Object> request) {
         try {
             String odontologoId = String.valueOf(request.get("odontologoId").toString());
-            Long pacienteId = Long.valueOf(request.get("pacienteId").toString());
+            String pacienteId = String.valueOf(request.get("pacienteId").toString());
             LocalDate fecha = LocalDate.parse(request.get("fecha").toString());
             LocalTime hora = LocalTime.parse(request.get("hora").toString());
 

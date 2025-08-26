@@ -7,6 +7,5 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface IPacienteRepository extends JpaRepository<Paciente, Long> {
-    Optional<Paciente> findByDni(String dni);
+public interface IPacienteRepository extends JpaRepository<Paciente, String> {
 }
