@@ -15,9 +15,19 @@ public class Domicilio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String calle;
-    private String localidad;
-    private Integer numero;
-    private String provincia;
 
+    @Column(length = 100, nullable = false)
+    private String calle;
+
+    @Column(length = 50, nullable = false)
+    private String numero;
+
+    @Column(length = 50, nullable = false)
+    private String barrio;
+
+    @Column(length = 50, nullable = false)
+    private String ciudad;
+
+    @Column(length = 50, nullable = false)
+    private String departamento;
 }

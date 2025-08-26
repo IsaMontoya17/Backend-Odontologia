@@ -25,26 +25,33 @@ public class PacienteService implements IPacienteService {
     @Override
     public Paciente guardar(Paciente paciente) throws HandleConflictException, BadRequestException {
 
-        Optional<Paciente> pacienteExistente = pacienteRepository.findById(paciente.getDni());
-        if (pacienteExistente.isPresent()) {
+        if (pacienteRepository.existsById(paciente.getDni())) {
             logger.warn("Ya existe un paciente con el DNI: " + paciente.getDni());
             throw new HandleConflictException("Ya existe un paciente con el DNI: " + paciente.getDni());
         }
 
-        if (paciente.getDomicilio().getCalle() == null || paciente.getDomicilio().getCalle().isEmpty() ||
-                paciente.getDomicilio().getNumero() == null ||
-                paciente.getDomicilio().getLocalidad() == null || paciente.getDomicilio().getLocalidad().isEmpty() ||
-                paciente.getDomicilio().getProvincia() == null || paciente.getDomicilio().getProvincia().isEmpty()) {
+        if (paciente.getNombre() == null || paciente.getNombre().isEmpty()
+                || paciente.getApellido() == null || paciente.getApellido().isEmpty()
+                || paciente.getFechaNacimiento() == null
+                || paciente.getDomicilio() == null
+                || paciente.getDomicilio().getCalle() == null || paciente.getDomicilio().getCalle().isEmpty()
+                || paciente.getDomicilio().getNumero() == null || paciente.getDomicilio().getNumero().isEmpty()
+                || paciente.getDomicilio().getBarrio() == null || paciente.getDomicilio().getBarrio().isEmpty()
+                || paciente.getDomicilio().getCiudad() == null || paciente.getDomicilio().getCiudad().isEmpty()
+                || paciente.getDomicilio().getDepartamento() == null || paciente.getDomicilio().getDepartamento().isEmpty()) {
 
-            logger.warn("El paciente no fue guardado, todos los campos del domicilio son obligatorios.");
-            throw new BadRequestException("Todos los campos del domicilio son obligatorios.");
+            logger.warn("Todos los campos del paciente y del domicilio son obligatorios.");
+            throw new BadRequestException("Todos los campos del paciente y del domicilio son obligatorios.");
         }
+        
         Paciente pacienteGuardado = pacienteRepository.save(paciente);
-        logger.info("Paciente guardado con ID: " + pacienteGuardado.getDni());
+
+        logger.info("Paciente guardado con DNI: " + pacienteGuardado.getDni());
         logger.info("Domicilio guardado con ID: " + pacienteGuardado.getDomicilio().getId());
 
         return pacienteGuardado;
     }
+
 
     @Override
     public Paciente buscarPorId(String dni) throws ResourceNotFoundException {
