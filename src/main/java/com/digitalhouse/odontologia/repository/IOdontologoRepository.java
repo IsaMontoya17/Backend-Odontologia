@@ -7,14 +7,11 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface IOdontologoRepository extends JpaRepository<Odontologo, Long> {
-    Optional<Odontologo> findByMatricula(String matricula);
-
-    @Modifying
-    @Transactional
-    @Query("DELETE FROM Odontologo o WHERE o.matricula = ?1")
-    void deleteByMatricula(String matricula);
+public interface IOdontologoRepository extends JpaRepository<Odontologo, String> {
+    Optional<Odontologo> findByEmail(String email);
+    List<Odontologo> findByEspecialidad(String especialidad);
 }

@@ -1,17 +1,19 @@
 package com.digitalhouse.odontologia.service.impl;
 
+import com.digitalhouse.odontologia.dto.OdontologoResponseDTO;
+import com.digitalhouse.odontologia.dto.OdontologoUpdateDTO;
 import com.digitalhouse.odontologia.entity.Odontologo;
 import com.digitalhouse.odontologia.exception.HandleConflictException;
 import com.digitalhouse.odontologia.exception.ResourceNotFoundException;
 import com.digitalhouse.odontologia.repository.IOdontologoRepository;
 import com.digitalhouse.odontologia.service.IOdontologoService;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Service
 public class OdontologoService implements IOdontologoService {
@@ -22,59 +24,36 @@ public class OdontologoService implements IOdontologoService {
 
     @Override
     public Odontologo guardar(Odontologo odontologo) throws HandleConflictException {
-        Optional<Odontologo> odontologoExistente = odontologoRepository.findByMatricula(odontologo.getMatricula());
-        if (odontologoExistente.isPresent()) {
-            logger.warn("Ya existe un odontólogo con la matrícula: " + odontologo.getMatricula());
-            throw new HandleConflictException("Ya existe un odontólogo con la matrícula: " + odontologo.getMatricula());
+        if (odontologoRepository.existsById(odontologo.getDni())) {
+            logger.warn("Ya existe un odontólogo con el DNI: " + odontologo.getDni());
+            throw new HandleConflictException("Ya existe un odontólogo con el DNI: " + odontologo.getDni());
         }
+
         Odontologo odontologoGuardado = odontologoRepository.save(odontologo);
-        logger.info("Odontólogo con ID: " + odontologo.getId() + " guardado exitosamente.");
+        logger.info("Odontólogo con DNI: " + odontologoGuardado.getDni() + " guardado exitosamente.");
         return odontologoGuardado;
     }
 
     @Override
-    public Odontologo buscarPorId(Long id) throws ResourceNotFoundException{
-        Optional<Odontologo> odontologoEncontrado = odontologoRepository.findById(id);
+    public Odontologo buscarPorId(String dni) throws ResourceNotFoundException{
+        Optional<Odontologo> odontologoEncontrado = odontologoRepository.findById(dni);
         if(odontologoEncontrado.isPresent()) {
-            logger.info("Odontólogo con ID: " + id + " encontrado exitosamente.");
+            logger.info("Odontólogo con ID: " + dni + " encontrado exitosamente.");
             return odontologoEncontrado.get();
         }else{
-            logger.warn("No se encontro el odontologo con ID: " + id);
-            throw new ResourceNotFoundException("No se encontro el odontologo con ID: " + id);
+            logger.warn("No se encontro el odontologo con ID: " + dni);
+            throw new ResourceNotFoundException("No se encontro el odontologo con ID: " + dni);
         }
     }
 
     @Override
-    public void eliminar(Long id) throws ResourceNotFoundException {
-        if (odontologoRepository.existsById(id)) {
-            odontologoRepository.deleteById(id);
-            logger.info("Odontologo con ID: " + id +" eliminado exitosamente");
+    public void eliminar(String dni) throws ResourceNotFoundException {
+        if (odontologoRepository.existsById(dni)) {
+            odontologoRepository.deleteById(dni);
+            logger.info("Odontologo con ID: " + dni +" eliminado exitosamente");
         } else {
-            logger.warn("No se puede borrar el odontologo porque no se encontró el odontólogo con ID: " + id);
-            throw new ResourceNotFoundException("No se puede borrar el odontologo porque no se encontró el odontólogo con ID: " + id);
-        }
-    }
-
-    @Override
-    public Odontologo actualizar(Odontologo odontologo) throws ResourceNotFoundException {
-        logger.info("Actualizando odontólogo con ID: " + odontologo.getId());
-
-        Optional<Odontologo> odontologoExistente = odontologoRepository.findById(odontologo.getId());
-        if (odontologoExistente.isPresent()) {
-            // Mantener el ID y actualizar otros detalles
-            Odontologo odontologoActual = odontologoExistente.get();
-
-            odontologoActual.setNombre(odontologo.getNombre());
-            odontologoActual.setApellido(odontologo.getApellido());
-            odontologoActual.setMatricula(odontologo.getMatricula());
-
-            Odontologo odontologoActualizado = odontologoRepository.save(odontologoActual);
-            logger.info("Odontólogo con ID: " + odontologoActualizado.getId() + " actualizado exitosamente");
-
-            return odontologoActualizado;
-        } else {
-            logger.warn("No se puede modificar el odontólogo porque no se encontró el odontólogo con ID: " + odontologo.getId());
-            throw new ResourceNotFoundException("No se puede modificar el odontólogo porque no se encontró el odontólogo con ID: " + odontologo.getId());
+            logger.warn("No se puede borrar el odontologo porque no se encontró el odontólogo con ID: " + dni);
+            throw new ResourceNotFoundException("No se puede borrar el odontologo porque no se encontró el odontólogo con ID: " + dni);
         }
     }
 
@@ -88,15 +67,33 @@ public class OdontologoService implements IOdontologoService {
     }
 
     @Override
-    public void eliminarPorMatricula(String matricula) throws ResourceNotFoundException {
-        Optional<Odontologo> odontologo = odontologoRepository.findByMatricula(matricula);
-        if (odontologo.isPresent()) {
-            odontologoRepository.deleteByMatricula(matricula);
-            logger.info("Odontólogo con matrícula: " + matricula + " eliminado exitosamente.");
-        } else {
-            logger.warn("No se encontró el odontólogo con matrícula: " + matricula);
-            throw new ResourceNotFoundException("No se encontró el odontólogo con matrícula: " + matricula);
-        }
+    public OdontologoResponseDTO actualizarOdontologo(String dni, OdontologoUpdateDTO dto) {
+        Odontologo odontologo = odontologoRepository.findById(dni)
+                .orElseThrow(() -> new RuntimeException("Odontólogo no encontrado"));
+
+        if (dto.getApellido() != null) odontologo.setApellido(dto.getApellido());
+        if (dto.getNombre() != null) odontologo.setNombre(dto.getNombre());
+        if (dto.getEmail() != null) odontologo.setEmail(dto.getEmail());
+        if (dto.getTelefono() != null) odontologo.setTelefono(dto.getTelefono());
+        if (dto.getEspecialidad() != null) odontologo.setEspecialidad(dto.getEspecialidad());
+
+        Odontologo actualizado = odontologoRepository.save(odontologo);
+
+        // Convertir a DTO de respuesta
+        OdontologoResponseDTO responseDTO = new OdontologoResponseDTO();
+        responseDTO.setDni(actualizado.getDni());
+        responseDTO.setApellido(actualizado.getApellido());
+        responseDTO.setNombre(actualizado.getNombre());
+        responseDTO.setEmail(actualizado.getEmail());
+        responseDTO.setTelefono(actualizado.getTelefono());
+        responseDTO.setEspecialidad(actualizado.getEspecialidad());
+        responseDTO.setTurnosIds(actualizado.getTurnos()
+                .stream()
+                .map(t -> t.getId())
+                .collect(Collectors.toSet()));
+
+        return responseDTO;
     }
+
 
 }

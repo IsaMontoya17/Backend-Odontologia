@@ -33,7 +33,7 @@ public class TurnoService implements ITurnoService {
     @Autowired
     private IPacienteRepository pacienteRepository;
 
-    public Turno registrarTurno(Long odontologoId, Long pacienteId, LocalDate fecha, LocalTime hora) throws BadRequestException, HandleConflictException {
+    public Turno registrarTurno(String odontologoId, Long pacienteId, LocalDate fecha, LocalTime hora) throws BadRequestException, HandleConflictException {
 
         Optional<Odontologo> odontologoOptional = odontologoRepository.findById(odontologoId);
         if (odontologoOptional.isEmpty()) {
@@ -49,7 +49,7 @@ public class TurnoService implements ITurnoService {
 
 
         boolean existeTurnoOdontologo = turnoRepository.findAll().stream()
-                .anyMatch(turno -> turno.getOdontologo().getId().equals(odontologoId)
+                .anyMatch(turno -> turno.getOdontologo().getDni().equals(odontologoId)
                         && turno.getFecha().equals(fecha)
                         && turno.getHora().equals(hora));
 

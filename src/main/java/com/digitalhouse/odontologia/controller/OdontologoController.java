@@ -1,5 +1,7 @@
 package com.digitalhouse.odontologia.controller;
 
+import com.digitalhouse.odontologia.dto.OdontologoResponseDTO;
+import com.digitalhouse.odontologia.dto.OdontologoUpdateDTO;
 import com.digitalhouse.odontologia.entity.Odontologo;
 import com.digitalhouse.odontologia.exception.HandleConflictException;
 import com.digitalhouse.odontologia.exception.ResourceNotFoundException;
@@ -18,10 +20,10 @@ public class OdontologoController {
     @Autowired
     private IOdontologoService odontologoService;
 
-    @GetMapping("/{id}")
-    public ResponseEntity<?> buscarPorId(@PathVariable Long id) {
+    @GetMapping("/{dni}")
+    public ResponseEntity<?> buscarPorId(@PathVariable String dni) {
         try {
-            Odontologo odontologo = odontologoService.buscarPorId(id);
+            Odontologo odontologo = odontologoService.buscarPorId(dni);
             return ResponseEntity.ok(odontologo);
         } catch (ResourceNotFoundException e) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
@@ -51,10 +53,10 @@ public class OdontologoController {
         }
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> eliminar(@PathVariable Long id) {
+    @DeleteMapping("/{dni}")
+    public ResponseEntity<String> eliminar(@PathVariable String dni) {
         try {
-            odontologoService.eliminar(id);
+            odontologoService.eliminar(dni);
             return ResponseEntity.status(HttpStatus.OK).body("Odontólogo eliminado correctamente");
         } catch (ResourceNotFoundException e) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
@@ -64,38 +66,13 @@ public class OdontologoController {
     }
 
 
+    @PatchMapping("/{dni}")
+    public ResponseEntity<OdontologoResponseDTO> actualizarOdontologo(
+            @PathVariable String dni,
+            @RequestBody OdontologoUpdateDTO dto) {
 
-    @PutMapping("/{id}")
-    public ResponseEntity<Odontologo> actualizarOdontologo(@PathVariable Long id, @RequestBody Odontologo odontologo) {
-        try {
-
-            Odontologo odontologoExistente = odontologoService.buscarPorId(id);
-
-            if (odontologoExistente != null) {
-                odontologo.setId(id);
-
-
-                Odontologo odontologoActualizado = odontologoService.actualizar(odontologo);
-                return ResponseEntity.ok(odontologoActualizado);
-            } else {
-                return ResponseEntity.notFound().build();
-            }
-        } catch (ResourceNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
-        }
+        OdontologoResponseDTO actualizado = odontologoService.actualizarOdontologo(dni, dto);
+        return ResponseEntity.ok(actualizado);
     }
 
-    @DeleteMapping("/matricula/{matricula}")
-    public ResponseEntity<String> eliminarPorMatricula(@PathVariable String matricula) {
-        try {
-            odontologoService.eliminarPorMatricula(matricula);
-            return ResponseEntity.status(HttpStatus.OK).body("Odontólogo eliminado correctamente");
-        } catch (ResourceNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error interno al eliminar el odontólogo: " + e.getMessage());
-        }
-    }
 }

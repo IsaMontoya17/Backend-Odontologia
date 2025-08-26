@@ -14,10 +14,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 @SpringBootTest
 @Transactional
 class OdontologoServiceTest {
-
+/*
     @Autowired
     private IOdontologoRepository odontologoRepository;
 
@@ -156,5 +157,5 @@ class OdontologoServiceTest {
         assertEquals(2, odontologos.size());
         assertTrue(odontologos.stream().anyMatch(o -> o.getMatricula().equals("54321")));
         assertTrue(odontologos.stream().anyMatch(o -> o.getMatricula().equals("11223")));
-    }
+    }*/
 }

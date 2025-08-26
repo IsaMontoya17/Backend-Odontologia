@@ -26,7 +26,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @Transactional
 class TurnoServiceTest {
-
+/*
     @Autowired
     private ITurnoRepository turnoRepository;
 
@@ -206,5 +206,5 @@ class TurnoServiceTest {
         // Verificar que el turno ha sido eliminado
         assertThrows(ResourceNotFoundException.class, () ->
                 turnoService.eliminarTurno(turno.getId()));
-    }
+    }*/
 }

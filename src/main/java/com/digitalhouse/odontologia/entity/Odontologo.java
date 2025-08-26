@@ -14,11 +14,23 @@ import java.util.Set;
 public class Odontologo {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @Column(nullable = false, unique = true, length = 20)
+    private String dni;
+
+    @Column(nullable = false)
     private String apellido;
+
+    @Column(nullable = false)
     private String nombre;
-    private String matricula;
+
+    @Column(nullable = false, unique = true, length = 100)
+    private String email;
+
+    @Column(length = 20)
+    private String telefono;
+
+    @Column(length = 100)
+    private String especialidad;
 
     @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonIgnore
