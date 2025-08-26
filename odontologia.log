@@ -1,0 +1,1437 @@
+[2024-09-01 18:02:56] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:32:37] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:32:47] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:32:48] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:32:48] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:32:48] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:33:10] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:34:00] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:39:04] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 09:40:16] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Paciente.domicilio -> com.digitalhouse.odontologia.entity.Domicilio
+[2024-09-02 10:07:52] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:07:55] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:07:55] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:08:29] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Paciente.domicilio -> com.digitalhouse.odontologia.entity.Domicilio
+[2024-09-02 10:09:49] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:10:09] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:10:21] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:10:21] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:10:21] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:10:22] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:28:56] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 10:28:59] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:00:17] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:00:18] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:00:18] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:00:18] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:00:18] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:00:30] [ ERROR] [GlobalExceptionHandler:18] could not execute statement [La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default) [23502-224]] [insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default)]; SQL [insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default)]; constraint [null]
+[2024-09-02 11:01:55] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:02:50] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:03:56] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:04:59] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:07:54] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-02 11:16:03] [ ERROR] [GlobalExceptionHandler:18] No static resource static/diente.ico.
+[2024-09-02 13:41:40] [ ERROR] [GlobalExceptionHandler:18] could not execute statement [La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default) [23502-224]] [insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default)]; SQL [insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default)]; constraint [null]
+[2024-09-02 13:47:46] [ ERROR] [GlobalExceptionHandler:18] could not execute statement [La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default) [23502-224]] [insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default)]; SQL [insert into odontologos (apellido,matricula,nombre,id) values (?,?,?,default)]; constraint [null]
+[2024-09-02 14:03:18] [ ERROR] [GlobalExceptionHandler:18] could not execute statement [La columna "ID" no permite valores nulos (NULL)
+NULL not allowed for column "ID"; SQL statement:
+insert into domicilios (calle,localidad,numero,paciente_id,provincia,id) values (?,?,?,?,?,default) [23502-224]] [insert into domicilios (calle,localidad,numero,paciente_id,provincia,id) values (?,?,?,?,?,default)]; SQL [insert into domicilios (calle,localidad,numero,paciente_id,provincia,id) values (?,?,?,?,?,default)]; constraint [null]
+[2024-09-02 14:09:25] [ ERROR] [GlobalExceptionHandler:18] Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+[2024-09-02 14:09:31] [ ERROR] [GlobalExceptionHandler:18] Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+[2024-09-02 14:13:07] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:15:36] [ ERROR] [GlobalExceptionHandler:18] Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+[2024-09-02 14:17:21] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:17:49] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:26:30] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:37:18] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:40:41] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:48:24] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:50:15] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:52:10] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:53:31] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 14:55:31] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:04:49] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:05:56] [ ERROR] [GlobalExceptionHandler:18] Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+[2024-09-02 15:12:22] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:13:43] [ ERROR] [GlobalExceptionHandler:18] Handler dispatch failed: java.lang.StackOverflowError
+[2024-09-02 15:16:27] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:17:18] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:18:51] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:21:15] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-02 15:23:36] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-03 19:36:42] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-03 19:41:29] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Paciente.domicilio -> com.digitalhouse.odontologia.entity.Domicilio
+[2024-09-03 19:44:30] [ ERROR] [GlobalExceptionHandler:18] org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : com.digitalhouse.odontologia.entity.Domicilio.paciente -> com.digitalhouse.odontologia.entity.Paciente
+[2024-09-03 19:46:29] [ ERROR] [GlobalExceptionHandler:18] Content-Type 'application/json;charset=UTF-8' is not supported
+[2024-09-03 20:33:10] [ ERROR] [GlobalExceptionHandler:18] No static resource odontologo/id.
+[2024-09-03 20:33:10] [ ERROR] [GlobalExceptionHandler:18] No static resource favicon.ico.
+[2024-09-03 20:33:14] [ ERROR] [GlobalExceptionHandler:18] No static resource js/turnos.js.
+[2024-09-03 20:42:05] [ ERROR] [GlobalExceptionHandler:18] No static resource api/turnos.
+[2024-09-03 20:44:24] [ ERROR] [GlobalExceptionHandler:18] No static resource turnos.
+[2024-09-03 20:57:24] [ ERROR] [GlobalExceptionHandler:18] No static resource turnos.
+[2024-09-03 21:05:37] [ ERROR] [GlobalExceptionHandler:18] No static resource turnos/1.
+[2024-09-03 21:05:41] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' is not supported
+[2024-09-03 21:05:42] [ ERROR] [GlobalExceptionHandler:18] Request method 'GET' is not supported
+[2024-09-03 21:09:06] [ ERROR] [GlobalExceptionHandler:18] No static resource turnos/1.
+[2024-09-03 21:23:32] [ ERROR] [GlobalExceptionHandler:18] No static resource turnos/1.
+[2024-09-03 21:23:38] [ ERROR] [GlobalExceptionHandler:18] No static resource turnos.
+[2024-09-03 21:57:19] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 21:57:19] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 21:58:10] [ INFO ] [PacienteService:29] Paciente guardado con ID: 2
+[2024-09-03 21:58:10] [ INFO ] [PacienteService:31] Domicilio guardado con ID: 5
+[2024-09-03 21:58:13] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 21:58:13] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 21:58:13] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:10:22] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:10:22] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:10:22] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:10:23] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:10:23] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:10:23] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:12:24] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:12:24] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:12:24] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:15:24] [ INFO ] [PacienteService:29] Paciente guardado con ID: 3
+[2024-09-03 22:15:24] [ INFO ] [PacienteService:31] Domicilio guardado con ID: 6
+[2024-09-03 22:15:27] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:15:27] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:15:27] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:15:27] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:19:17] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:19:17] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:19:17] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:19:17] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:20:20] [ INFO ] [PacienteService:29] Paciente guardado con ID: 4
+[2024-09-03 22:20:20] [ INFO ] [PacienteService:31] Domicilio guardado con ID: 7
+[2024-09-03 22:20:23] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:20:23] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:20:23] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:20:23] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:20:23] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 7
+[2024-09-03 22:27:16] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:27:16] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:27:16] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:27:16] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:27:16] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 7
+[2024-09-03 22:34:40] [ ERROR] [GlobalExceptionHandler:18] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"
+[2024-09-03 22:34:44] [ ERROR] [GlobalExceptionHandler:18] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"
+[2024-09-03 22:35:00] [ ERROR] [GlobalExceptionHandler:18] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"
+[2024-09-03 22:42:11] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:42:11] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:42:11] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:42:11] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:42:11] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 7
+[2024-09-03 22:43:43] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:43:43] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:43:43] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:43:43] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:43:43] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 7
+[2024-09-03 22:44:43] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:44:43] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:44:43] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:44:43] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:44:43] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 7
+[2024-09-03 22:54:04] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:54:04] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 4
+[2024-09-03 22:54:04] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 5
+[2024-09-03 22:54:04] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 6
+[2024-09-03 22:54:04] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 7
+[2024-09-03 22:56:28] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:56:28] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-03 22:56:28] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-03 22:56:28] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-03 22:56:28] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-03 22:56:28] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-03 22:56:30] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:56:30] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-03 22:56:30] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-03 22:56:30] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-03 22:56:30] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-03 22:56:30] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-03 22:56:32] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:56:32] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-03 22:56:32] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-03 22:56:32] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-03 22:56:32] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-03 22:56:32] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-03 22:56:36] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-03 22:56:36] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-03 22:56:36] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-03 22:56:36] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-03 22:56:36] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-03 22:56:36] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:11:48] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:11:48] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:11:48] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:11:48] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:11:48] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:11:48] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:11:52] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:11:52] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:11:52] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:11:52] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:11:52] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:11:52] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:11:58] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:11:58] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:11:58] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:11:58] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:11:58] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:11:58] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:12:02] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:12:02] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:12:02] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:12:02] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:12:02] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:12:02] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:12:44] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:12:44] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:12:44] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:12:44] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:12:44] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:12:44] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:13:05] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:13:05] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:13:05] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:13:05] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:13:05] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:13:05] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:13:15] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:13:15] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:13:15] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:13:15] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:13:15] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:13:15] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:13:17] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:13:17] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:13:17] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:13:17] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:13:17] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:13:17] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:13:36] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:13:36] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:13:36] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:13:36] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:13:36] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:13:36] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:13:47] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:13:47] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:13:47] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:13:47] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:13:47] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:13:47] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:14:12] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:14:12] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:14:12] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:14:12] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:14:12] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:14:12] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:15:15] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:15:15] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:15:15] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:15:15] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:15:15] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:15:15] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:20:16] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:20:16] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:20:16] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:20:16] [ INFO ] [PacienteService:100] Paciente ID: 4, Domicilio ID: 4
+[2024-09-05 20:20:16] [ INFO ] [PacienteService:100] Paciente ID: 5, Domicilio ID: 5
+[2024-09-05 20:20:16] [ INFO ] [PacienteService:100] Paciente ID: 6, Domicilio ID: 6
+[2024-09-05 20:20:44] [ INFO ] [PacienteService:92] No se encontraron pacientes en la base de datos.
+[2024-09-05 20:21:33] [ INFO ] [PacienteService:29] Paciente guardado con ID: 1
+[2024-09-05 20:21:33] [ INFO ] [PacienteService:31] Domicilio guardado con ID: 1
+[2024-09-05 20:22:05] [ INFO ] [PacienteService:29] Paciente guardado con ID: 2
+[2024-09-05 20:22:05] [ INFO ] [PacienteService:31] Domicilio guardado con ID: 2
+[2024-09-05 20:22:36] [ INFO ] [PacienteService:29] Paciente guardado con ID: 3
+[2024-09-05 20:22:36] [ INFO ] [PacienteService:31] Domicilio guardado con ID: 3
+[2024-09-05 20:22:40] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:22:40] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:22:40] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:22:40] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:22:44] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:22:44] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:22:44] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:22:44] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:23:08] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:23:08] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:23:08] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:23:08] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:23:33] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:23:33] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:23:33] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:23:33] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:24:07] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:24:07] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:24:07] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:24:07] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:24:21] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:24:21] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:24:21] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:24:21] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:24:37] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:24:37] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:24:37] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:24:37] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:28:09] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:28:09] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:28:09] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:28:09] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:30:45] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:30:45] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:30:45] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:30:45] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:33:10] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:33:10] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:33:10] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:33:10] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:34:16] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:34:16] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:34:16] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:34:16] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-05 20:42:15] [ INFO ] [PacienteService:94] Pacientes: 
+[2024-09-05 20:42:15] [ INFO ] [PacienteService:100] Paciente ID: 1, Domicilio ID: 1
+[2024-09-05 20:42:15] [ INFO ] [PacienteService:100] Paciente ID: 2, Domicilio ID: 2
+[2024-09-05 20:42:15] [ INFO ] [PacienteService:100] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 10:45:48] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 10:45:48] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 10:45:48] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 10:45:48] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 10:46:17] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 10:46:17] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 10:46:17] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 10:46:17] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 10:46:58] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 10:46:58] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 10:46:58] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 10:46:58] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 10:57:36] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 10:57:36] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 10:57:36] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 10:57:36] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 10:57:46] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 10:57:46] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 10:57:46] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 10:57:46] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 11:03:18] [ ERROR] [GlobalExceptionHandler:16] Resource not found exception occurred: No se encontro el odontologo con ID: 20
+com.digitalhouse.odontologia.exception.ResourceNotFoundException: No se encontro el odontologo con ID: 20
+	at com.digitalhouse.odontologia.service.impl.OdontologoService.buscarPorId(OdontologoService.java:30)
+	at com.digitalhouse.odontologia.controller.OdontologoController.buscarPorId(OdontologoController.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-09-06 11:11:35] [ ERROR] [GlobalExceptionHandler:16] Resource not found exception occurred: No se encontro el odontologo con ID: 20
+com.digitalhouse.odontologia.exception.ResourceNotFoundException: No se encontro el odontologo con ID: 20
+	at com.digitalhouse.odontologia.service.impl.OdontologoService.buscarPorId(OdontologoService.java:30)
+	at com.digitalhouse.odontologia.controller.OdontologoController.buscarPorId(OdontologoController.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-09-06 11:14:57] [ ERROR] [GlobalExceptionHandler:16] Resource not found exception occurred: No se encontro el odontologo con ID: 20
+com.digitalhouse.odontologia.exception.ResourceNotFoundException: No se encontro el odontologo con ID: 20
+	at com.digitalhouse.odontologia.service.impl.OdontologoService.buscarPorId(OdontologoService.java:30)
+	at com.digitalhouse.odontologia.controller.OdontologoController.buscarPorId(OdontologoController.java:21)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-09-06 11:23:34] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 11:23:34] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 11:23:34] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 11:23:34] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 11:28:21] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 11:28:21] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 11:28:21] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 11:28:21] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-06 11:29:24] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-06 11:29:24] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-06 11:29:24] [ INFO ] [PacienteService:99] Paciente ID: 2, Domicilio ID: 2
+[2024-09-06 11:29:24] [ INFO ] [PacienteService:99] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 12:25:25] [ INFO ] [PacienteService:91] No se encontraron pacientes en la base de datos.
+[2024-09-09 12:26:03] [ INFO ] [PacienteService:27] Paciente guardado con ID: 1
+[2024-09-09 12:26:03] [ INFO ] [PacienteService:29] Domicilio guardado con ID: 1
+[2024-09-09 12:26:05] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-09 12:26:05] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 12:26:28] [ INFO ] [PacienteService:64] Actualizando paciente con ID: 1
+[2024-09-09 12:26:28] [ INFO ] [PacienteService:70] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 12:26:28] [ INFO ] [PacienteService:76] Paciente actualizado con ID: 1
+[2024-09-09 12:26:28] [ INFO ] [PacienteService:78] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 12:26:31] [ INFO ] [PacienteService:93] Pacientes: 
+[2024-09-09 12:26:31] [ INFO ] [PacienteService:99] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 12:36:30] [ INFO ] [OdontologoService:58] Actualizando odontólogo con ID: 1
+[2024-09-09 12:36:30] [ INFO ] [OdontologoService:71] Odontólogo actualizado con ID: 1
+[2024-09-09 13:12:21] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:12:21] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:13:13] [ INFO ] [PacienteService:46] Paciente guardado con ID: 2
+[2024-09-09 13:13:13] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 2
+[2024-09-09 13:13:15] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:13:15] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:13:15] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:13:55] [ ERROR] [GlobalExceptionHandler:28] Conflict exception occurred: Ya existe un paciente con el DNI: 1033177077
+com.digitalhouse.odontologia.exception.HandleConflictException: Ya existe un paciente con el DNI: 1033177077
+	at com.digitalhouse.odontologia.service.impl.PacienteService.guardar(PacienteService.java:42)
+	at com.digitalhouse.odontologia.controller.PacienteController.guardar(PacienteController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[2024-09-09 13:14:53] [ INFO ] [PacienteService:46] Paciente guardado con ID: 3
+[2024-09-09 13:14:53] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 3
+[2024-09-09 13:14:57] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:14:57] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:14:57] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:14:57] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:18:06] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:18:06] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:18:06] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:18:06] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:18:53] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:18:53] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:18:53] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:18:53] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:19:00] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:19:00] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:19:00] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:19:00] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:19:12] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:19:12] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:19:12] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:19:12] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:20:15] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:20:15] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:20:15] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:20:15] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:22:06] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:22:06] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:22:06] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:22:06] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:22:35] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:22:35] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:22:35] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:22:35] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:23:15] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:23:15] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:23:15] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:23:15] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:23:16] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:23:16] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:23:16] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:23:16] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:23:37] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:23:37] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:23:37] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:23:37] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:25:30] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:25:30] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:25:30] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:25:30] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:25:48] [ ERROR] [GlobalExceptionHandler:28] Conflict exception occurred: Ya existe un paciente con el DNI: 1033177077
+com.digitalhouse.odontologia.exception.HandleConflictException: Ya existe un paciente con el DNI: 1033177077
+	at com.digitalhouse.odontologia.service.impl.PacienteService.guardar(PacienteService.java:42)
+	at com.digitalhouse.odontologia.controller.PacienteController.guardar(PacienteController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[2024-09-09 13:26:21] [ INFO ] [PacienteService:46] Paciente guardado con ID: 4
+[2024-09-09 13:26:21] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 4
+[2024-09-09 13:26:24] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:26:24] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:26:24] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:26:24] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:26:24] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 13:31:08] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:31:08] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:31:08] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:31:08] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:31:08] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 13:34:06] [ INFO ] [PacienteService:46] Paciente guardado con ID: 5
+[2024-09-09 13:34:06] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 5
+[2024-09-09 13:34:11] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:34:11] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:34:11] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:34:11] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:34:11] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 13:34:11] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 13:52:28] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:52:28] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:52:28] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 13:52:28] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:52:28] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 13:52:28] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 13:52:34] [ INFO ] [PacienteService:70] Intentando eliminar el paciente con ID: 7
+[2024-09-09 13:52:45] [ INFO ] [PacienteService:70] Intentando eliminar el paciente con ID: 8
+[2024-09-09 13:52:59] [ INFO ] [PacienteService:70] Intentando eliminar el paciente con ID: 2
+[2024-09-09 13:52:59] [ INFO ] [PacienteService:73] Paciente con ID: 2 eliminado exitosamente.
+[2024-09-09 13:53:03] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:53:03] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:53:03] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:53:03] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 13:53:03] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 13:53:39] [ INFO ] [PacienteService:81] Actualizando paciente con ID: 1
+[2024-09-09 13:53:39] [ INFO ] [PacienteService:91] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:53:39] [ INFO ] [PacienteService:96] Paciente actualizado con ID: 1
+[2024-09-09 13:53:39] [ INFO ] [PacienteService:99] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 13:53:50] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 13:53:50] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 13:53:50] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 13:53:50] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 13:53:50] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 14:14:14] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 14:14:14] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 14:14:14] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 14:14:14] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 14:14:14] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 14:14:37] [ ERROR] [GlobalExceptionHandler:16] Resource not found exception occurred: Turno no encontrado con ID: 3
+com.digitalhouse.odontologia.exception.ResourceNotFoundException: Turno no encontrado con ID: 3
+	at com.digitalhouse.odontologia.service.impl.TurnoService.eliminarTurno(TurnoService.java:83)
+	at com.digitalhouse.odontologia.controller.TurnoController.eliminarTurno(TurnoController.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+[2024-09-09 14:15:38] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 14:15:38] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 14:15:38] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 14:15:38] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 14:15:38] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 14:16:11] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 14:16:11] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 14:16:11] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 14:16:11] [ INFO ] [PacienteService:120] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 14:16:11] [ INFO ] [PacienteService:120] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 14:51:18] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 14:51:18] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 14:51:18] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 14:51:18] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 14:53:08] [ WARN ] [OdontologoService:26] Ya existe un odontólogo con la matrícula: 777
+[2024-09-09 14:53:20] [ INFO ] [OdontologoService:47] Odontologo con ID: 10 eliminado exitosamente
+[2024-09-09 14:53:36] [ INFO ] [OdontologoService:59] Actualizando odontólogo con ID: 11
+[2024-09-09 14:53:36] [ INFO ] [OdontologoService:71] Odontólogo actualizado con ID: 11
+[2024-09-09 15:00:03] [ INFO ] [OdontologoService:49] Odontologo con ID: 1 eliminado exitosamente
+[2024-09-09 15:00:04] [ INFO ] [OdontologoService:49] Odontologo con ID: 2 eliminado exitosamente
+[2024-09-09 15:00:05] [ INFO ] [OdontologoService:49] Odontologo con ID: 3 eliminado exitosamente
+[2024-09-09 15:00:07] [ INFO ] [OdontologoService:49] Odontologo con ID: 4 eliminado exitosamente
+[2024-09-09 15:00:08] [ INFO ] [OdontologoService:49] Odontologo con ID: 5 eliminado exitosamente
+[2024-09-09 15:00:17] [ INFO ] [OdontologoService:49] Odontologo con ID: 6 eliminado exitosamente
+[2024-09-09 15:00:18] [ INFO ] [OdontologoService:49] Odontologo con ID: 11 eliminado exitosamente
+[2024-09-09 15:00:43] [ INFO ] [PacienteService:114] Pacientes: 
+[2024-09-09 15:00:43] [ INFO ] [PacienteService:120] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:00:43] [ INFO ] [PacienteService:120] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 15:00:43] [ INFO ] [PacienteService:120] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:06:47] [ INFO ] [OdontologoService:29] Odontólogo con ID: null guardado exitosamente.
+[2024-09-09 15:08:37] [ INFO ] [OdontologoService:30] Odontólogo con ID: 1 guardado exitosamente.
+[2024-09-09 15:08:49] [ INFO ] [OdontologoService:30] Odontólogo con ID: 2 guardado exitosamente.
+[2024-09-09 15:08:57] [ INFO ] [OdontologoService:30] Odontólogo con ID: 3 guardado exitosamente.
+[2024-09-09 15:09:19] [ INFO ] [OdontologoService:30] Odontólogo con ID: 4 guardado exitosamente.
+[2024-09-09 15:09:29] [ INFO ] [OdontologoService:38] Odontólogo con ID: 4 encontrado exitosamente.
+[2024-09-09 15:09:32] [ INFO ] [OdontologoService:38] Odontólogo con ID: 4 encontrado exitosamente.
+[2024-09-09 15:09:32] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 4
+[2024-09-09 15:09:32] [ INFO ] [OdontologoService:74] Odontólogo con ID: 4 actualizado exitosamente
+[2024-09-09 15:10:01] [ INFO ] [OdontologoService:30] Odontólogo con ID: 5 guardado exitosamente.
+[2024-09-09 15:10:12] [ INFO ] [OdontologoService:50] Odontologo con ID: 5 eliminado exitosamente
+[2024-09-09 15:10:46] [ INFO ] [PacienteService:46] Paciente guardado con ID: 1
+[2024-09-09 15:10:46] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 1
+[2024-09-09 15:11:31] [ INFO ] [PacienteService:46] Paciente guardado con ID: 2
+[2024-09-09 15:11:31] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 2
+[2024-09-09 15:12:22] [ INFO ] [PacienteService:46] Paciente guardado con ID: 3
+[2024-09-09 15:12:22] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 3
+[2024-09-09 15:12:52] [ INFO ] [PacienteService:112] Pacientes: 
+[2024-09-09 15:12:52] [ INFO ] [PacienteService:118] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:12:52] [ INFO ] [PacienteService:118] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 15:12:52] [ INFO ] [PacienteService:118] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:13:20] [ INFO ] [PacienteService:79] Actualizando paciente con ID: 3
+[2024-09-09 15:13:20] [ INFO ] [PacienteService:89] Información del paciente antes de actualizar: Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:13:20] [ INFO ] [PacienteService:94] Paciente actualizado con ID: 3
+[2024-09-09 15:13:20] [ INFO ] [PacienteService:97] Domicilio del paciente actualizado con ID: 3
+[2024-09-09 15:13:21] [ INFO ] [PacienteService:112] Pacientes: 
+[2024-09-09 15:13:21] [ INFO ] [PacienteService:118] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:13:21] [ INFO ] [PacienteService:118] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 15:13:21] [ INFO ] [PacienteService:118] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:13:40] [ INFO ] [PacienteService:68] Intentando eliminar el paciente con ID: 2
+[2024-09-09 15:13:40] [ INFO ] [PacienteService:71] Paciente con ID: 2 eliminado exitosamente.
+[2024-09-09 15:13:44] [ INFO ] [PacienteService:112] Pacientes: 
+[2024-09-09 15:13:44] [ INFO ] [PacienteService:118] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:13:44] [ INFO ] [PacienteService:118] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:14:20] [ INFO ] [PacienteService:46] Paciente guardado con ID: 4
+[2024-09-09 15:14:20] [ INFO ] [PacienteService:48] Domicilio guardado con ID: 4
+[2024-09-09 15:14:21] [ INFO ] [PacienteService:112] Pacientes: 
+[2024-09-09 15:14:21] [ INFO ] [PacienteService:118] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:14:21] [ INFO ] [PacienteService:118] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:14:21] [ INFO ] [PacienteService:118] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:14:43] [ INFO ] [PacienteService:112] Pacientes: 
+[2024-09-09 15:14:43] [ INFO ] [PacienteService:118] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:14:43] [ INFO ] [PacienteService:118] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:14:43] [ INFO ] [PacienteService:118] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:15:06] [ INFO ] [PacienteService:112] Pacientes: 
+[2024-09-09 15:15:06] [ INFO ] [PacienteService:118] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:15:06] [ INFO ] [PacienteService:118] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:15:06] [ INFO ] [PacienteService:118] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:31:44] [ INFO ] [PacienteService:35] Paciente guardado con ID: 5
+[2024-09-09 15:31:44] [ INFO ] [PacienteService:37] Domicilio guardado con ID: 5
+[2024-09-09 15:46:10] [ WARN ] [PacienteService:30] Ya existe un paciente con el DNI: 12345678
+[2024-09-09 15:46:29] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 15:46:29] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:46:29] [ INFO ] [PacienteService:113] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:46:29] [ INFO ] [PacienteService:113] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:46:29] [ INFO ] [PacienteService:113] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 15:46:51] [ INFO ] [PacienteService:35] Paciente guardado con ID: 6
+[2024-09-09 15:46:51] [ WARN ] [PacienteService:42] El domicilio no fue guardado, todos los campos del domicilio son obligatorios.
+[2024-09-09 15:47:16] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 1
+[2024-09-09 15:47:34] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 15:47:34] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:47:34] [ INFO ] [PacienteService:113] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:47:34] [ INFO ] [PacienteService:113] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:47:34] [ INFO ] [PacienteService:113] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 15:47:34] [ INFO ] [PacienteService:113] Paciente ID: 6, Domicilio ID: 6
+[2024-09-09 15:47:52] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 6
+[2024-09-09 15:47:52] [ INFO ] [PacienteService:66] Paciente con ID: 6 eliminado exitosamente.
+[2024-09-09 15:47:59] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 15:47:59] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:47:59] [ INFO ] [PacienteService:113] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:47:59] [ INFO ] [PacienteService:113] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:47:59] [ INFO ] [PacienteService:113] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 15:48:20] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 5
+[2024-09-09 15:48:20] [ INFO ] [PacienteService:66] Paciente con ID: 5 eliminado exitosamente.
+[2024-09-09 15:48:24] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 15:48:24] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:48:24] [ INFO ] [PacienteService:113] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 15:48:24] [ INFO ] [PacienteService:113] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 15:48:31] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 4
+[2024-09-09 15:48:31] [ INFO ] [PacienteService:66] Paciente con ID: 4 eliminado exitosamente.
+[2024-09-09 15:48:33] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 15:48:33] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 15:48:33] [ INFO ] [PacienteService:113] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:23:24] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 16:23:24] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 16:23:24] [ INFO ] [PacienteService:113] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:23:28] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 3
+[2024-09-09 16:23:28] [ INFO ] [PacienteService:66] Paciente con ID: 3 eliminado exitosamente.
+[2024-09-09 16:23:30] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 1
+[2024-09-09 16:23:34] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 1
+[2024-09-09 16:23:39] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 16:23:39] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 16:23:43] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 16:23:43] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 16:24:52] [ INFO ] [PacienteService:105] No se encontraron pacientes en la base de datos.
+[2024-09-09 16:25:06] [ INFO ] [PacienteService:35] Paciente guardado con ID: 1
+[2024-09-09 16:25:06] [ INFO ] [PacienteService:46] Domicilio guardado con ID: 1
+[2024-09-09 16:25:09] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 16:25:09] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 16:25:23] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 16:25:23] [ INFO ] [PacienteService:84] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 16:25:23] [ INFO ] [PacienteService:89] Paciente actualizado con ID: 1
+[2024-09-09 16:25:23] [ INFO ] [PacienteService:92] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 16:25:31] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 16:25:31] [ INFO ] [PacienteService:113] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 16:25:36] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 1
+[2024-09-09 16:25:36] [ INFO ] [PacienteService:66] Paciente con ID: 1 eliminado exitosamente.
+[2024-09-09 16:25:45] [ INFO ] [PacienteService:105] No se encontraron pacientes en la base de datos.
+[2024-09-09 16:26:00] [ INFO ] [PacienteService:35] Paciente guardado con ID: 2
+[2024-09-09 16:26:00] [ INFO ] [PacienteService:46] Domicilio guardado con ID: 2
+[2024-09-09 16:26:03] [ INFO ] [PacienteService:107] Pacientes: 
+[2024-09-09 16:26:03] [ INFO ] [PacienteService:113] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 16:26:11] [ INFO ] [PacienteService:63] Intentando eliminar el paciente con ID: 12
+[2024-09-09 16:36:57] [ INFO ] [PacienteService:111] Pacientes: 
+[2024-09-09 16:36:57] [ INFO ] [PacienteService:117] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 16:37:00] [ INFO ] [PacienteService:64] Intentando eliminar el paciente con ID: 2
+[2024-09-09 16:37:00] [ INFO ] [PacienteService:67] Paciente con ID: 2 eliminado exitosamente.
+[2024-09-09 16:37:03] [ INFO ] [PacienteService:109] No se encontraron pacientes en la base de datos.
+[2024-09-09 16:37:27] [ INFO ] [PacienteService:35] Paciente guardado con ID: 3
+[2024-09-09 16:37:27] [ INFO ] [PacienteService:46] Domicilio guardado con ID: 3
+[2024-09-09 16:37:34] [ INFO ] [PacienteService:111] Pacientes: 
+[2024-09-09 16:37:34] [ INFO ] [PacienteService:117] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:37:55] [ WARN ] [PacienteService:30] Ya existe un paciente con el DNI: 12345
+[2024-09-09 16:37:59] [ INFO ] [PacienteService:111] Pacientes: 
+[2024-09-09 16:37:59] [ INFO ] [PacienteService:117] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:38:17] [ INFO ] [PacienteService:35] Paciente guardado con ID: 4
+[2024-09-09 16:38:17] [ WARN ] [PacienteService:42] El domicilio no fue guardado, todos los campos del domicilio son obligatorios.
+[2024-09-09 16:38:33] [ INFO ] [PacienteService:111] Pacientes: 
+[2024-09-09 16:38:33] [ INFO ] [PacienteService:117] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:38:33] [ INFO ] [PacienteService:117] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 16:45:15] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:45:15] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:45:15] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 16:45:22] [ INFO ] [PacienteService:62] Intentando eliminar el paciente con ID: 4
+[2024-09-09 16:45:23] [ INFO ] [PacienteService:65] Paciente con ID: 4 eliminado exitosamente.
+[2024-09-09 16:45:30] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:45:30] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:45:50] [ WARN ] [PacienteService:39] El domicilio no fue guardado, todos los campos del domicilio son obligatorios.
+[2024-09-09 16:45:59] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:45:59] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:47:22] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:47:22] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:47:41] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 3
+[2024-09-09 16:47:41] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:47:41] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 3
+[2024-09-09 16:47:41] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 3
+[2024-09-09 16:48:37] [ WARN ] [PacienteService:55] No se encontró el paciente con ID: 12
+[2024-09-09 16:49:04] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:49:04] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:49:18] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:49:18] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:56:51] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:56:51] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:56:54] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:56:54] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:57:02] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 3
+[2024-09-09 16:57:02] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 16:57:02] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 3
+[2024-09-09 16:57:02] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 3
+[2024-09-09 16:57:12] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 16:57:12] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:09:21] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:09:21] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:09:21] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:09:21] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:09:21] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:09:30] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 18:09:30] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:09:30] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 18:09:30] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 18:09:45] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 3
+[2024-09-09 18:09:45] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:09:45] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 3
+[2024-09-09 18:09:45] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 3
+[2024-09-09 18:09:54] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:09:54] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:09:54] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:09:54] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:09:54] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:13:53] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:13:53] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:13:53] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:13:53] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:13:53] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:14:11] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:14:19] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:14:19] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 18:14:19] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 18:14:42] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:14:49] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:14:49] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 18:14:49] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 18:18:15] [ INFO ] [OdontologoService:30] Odontólogo con ID: 3 guardado exitosamente.
+[2024-09-09 18:22:56] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:22:56] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:22:56] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:22:56] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:22:56] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:23:25] [ INFO ] [OdontologoService:30] Odontólogo con ID: 4 guardado exitosamente.
+[2024-09-09 18:23:31] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:23:35] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:23:35] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 3
+[2024-09-09 18:23:35] [ INFO ] [OdontologoService:74] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-09 18:23:45] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:23:48] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:23:48] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 3
+[2024-09-09 18:23:48] [ INFO ] [OdontologoService:74] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-09 18:23:57] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:24:04] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:24:04] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 3
+[2024-09-09 18:24:04] [ INFO ] [OdontologoService:74] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-09 18:32:51] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:32:53] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:32:53] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 3
+[2024-09-09 18:32:53] [ INFO ] [OdontologoService:74] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-09 18:32:58] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:33:11] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:33:11] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 3
+[2024-09-09 18:33:11] [ INFO ] [OdontologoService:74] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-09 18:33:20] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:33:28] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-09 18:33:28] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 3
+[2024-09-09 18:33:28] [ INFO ] [OdontologoService:74] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-09 18:40:37] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:40:39] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:40:39] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 18:40:39] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 18:40:46] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:40:49] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:40:49] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 18:40:49] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 18:48:10] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:48:13] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 18:48:13] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 18:48:13] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 18:58:47] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:58:47] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:58:47] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:58:47] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:58:47] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:58:55] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 18:58:56] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:58:56] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 18:58:56] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 18:58:59] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:58:59] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:58:59] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:58:59] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:58:59] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:59:07] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:59:07] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:59:07] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:59:07] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:59:07] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 18:59:21] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 18:59:21] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:59:21] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 18:59:21] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 18:59:27] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 18:59:27] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 18:59:27] [ INFO ] [PacienteService:115] Paciente ID: 3, Domicilio ID: 3
+[2024-09-09 18:59:27] [ INFO ] [PacienteService:115] Paciente ID: 4, Domicilio ID: 4
+[2024-09-09 18:59:27] [ INFO ] [PacienteService:115] Paciente ID: 5, Domicilio ID: 5
+[2024-09-09 19:00:29] [ INFO ] [PacienteService:107] No se encontraron pacientes en la base de datos.
+[2024-09-09 19:01:00] [ INFO ] [PacienteService:43] Paciente guardado con ID: 1
+[2024-09-09 19:01:00] [ INFO ] [PacienteService:44] Domicilio guardado con ID: 1
+[2024-09-09 19:01:04] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:01:04] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:01:12] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 19:01:13] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:01:13] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 19:01:13] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 19:01:15] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:01:15] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:01:27] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 19:01:27] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:01:27] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 19:01:27] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 19:05:08] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:05:08] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:05:15] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 19:05:16] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:05:16] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 19:05:16] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 19:05:19] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:05:19] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:05:29] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 19:05:29] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:05:29] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 19:05:29] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 19:06:05] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:06:05] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:06:11] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 19:06:11] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:06:11] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 19:06:11] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 19:06:13] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:06:13] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:06:22] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 1
+[2024-09-09 19:06:22] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:06:22] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 1
+[2024-09-09 19:06:22] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 1
+[2024-09-09 19:10:54] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:10:54] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:11:13] [ INFO ] [PacienteService:43] Paciente guardado con ID: 2
+[2024-09-09 19:11:13] [ INFO ] [PacienteService:44] Domicilio guardado con ID: 2
+[2024-09-09 19:11:15] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:11:15] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:11:15] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:11:23] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:11:24] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:11:24] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:11:24] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:11:26] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:11:26] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:11:26] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:11:36] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:11:36] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:11:36] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:11:36] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:13:19] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:13:19] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:13:19] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:16:49] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:16:49] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:16:49] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:16:53] [ WARN ] [PacienteService:55] No se encontró el paciente con ID: 3
+[2024-09-09 19:16:58] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:16:58] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:16:58] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:17:12] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:17:12] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:17:12] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:17:12] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:17:26] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:17:26] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:17:26] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:17:34] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:17:34] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:17:34] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:17:34] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:19:29] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:19:29] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:19:29] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:19:41] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:19:41] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:19:41] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:19:41] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:19:43] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:19:43] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:19:43] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:19:48] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:19:48] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:19:48] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:20:06] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:20:06] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:20:06] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:20:06] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:20:09] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:20:09] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:20:09] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:23:08] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:23:08] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:23:08] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:23:32] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:23:32] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:23:32] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:23:32] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:24:17] [ INFO ] [OdontologoService:30] Odontólogo con ID: 1 guardado exitosamente.
+[2024-09-09 19:24:28] [ INFO ] [OdontologoService:30] Odontólogo con ID: 2 guardado exitosamente.
+[2024-09-09 19:24:39] [ INFO ] [OdontologoService:30] Odontólogo con ID: 3 guardado exitosamente.
+[2024-09-09 19:24:56] [ INFO ] [OdontologoService:30] Odontólogo con ID: 4 guardado exitosamente.
+[2024-09-09 19:25:48] [ INFO ] [OdontologoService:30] Odontólogo con ID: 5 guardado exitosamente.
+[2024-09-09 19:30:04] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:30:10] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:30:10] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 19:30:10] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 19:30:18] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:30:21] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:30:21] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 19:30:21] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 19:35:36] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:35:36] [ INFO ] [PacienteService:115] Paciente ID: 1, Domicilio ID: 1
+[2024-09-09 19:35:36] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:37:12] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:37:25] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:37:25] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 19:37:25] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 19:37:37] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:37:38] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:37:38] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:37:38] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:39:35] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:40:31] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:40:49] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:40:49] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 19:40:49] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 19:40:53] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:40:53] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:40:57] [ WARN ] [PacienteService:55] No se encontró el paciente con ID: 6
+[2024-09-09 19:41:01] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:41:01] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:41:11] [ INFO ] [PacienteService:74] Actualizando paciente con ID: 2
+[2024-09-09 19:41:11] [ INFO ] [PacienteService:85] Información del paciente antes de actualizar: Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:41:11] [ INFO ] [PacienteService:90] Paciente actualizado con ID: 2
+[2024-09-09 19:41:11] [ INFO ] [PacienteService:93] Domicilio del paciente actualizado con ID: 2
+[2024-09-09 19:41:12] [ INFO ] [PacienteService:109] Pacientes: 
+[2024-09-09 19:41:12] [ INFO ] [PacienteService:115] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:41:40] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:41:44] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:41:44] [ INFO ] [OdontologoService:62] Actualizando odontólogo con ID: 1
+[2024-09-09 19:41:44] [ INFO ] [OdontologoService:74] Odontólogo con ID: 1 actualizado exitosamente
+[2024-09-09 19:41:50] [ INFO ] [OdontologoService:38] Odontólogo con ID: 1 encontrado exitosamente.
+[2024-09-09 19:59:50] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-09 19:59:50] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:59:52] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-09 19:59:52] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 19:59:54] [ WARN ] [PacienteService:83] No se encontraron turnos en la base de datos.
+[2024-09-09 20:29:02] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-09 20:29:02] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-09 20:45:02] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-09 20:45:02] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-10 22:00:27] [ WARN ] [OdontologoService:26] Ya existe un odontólogo con la matrícula: 333
+[2024-09-10 22:00:57] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-10 22:00:58] [ INFO ] [OdontologoService:38] Odontólogo con ID: 3 encontrado exitosamente.
+[2024-09-10 22:00:58] [ INFO ] [OdontologoService:59] Actualizando odontólogo con ID: 3
+[2024-09-10 22:00:58] [ INFO ] [OdontologoService:71] Odontólogo con ID: 3 actualizado exitosamente
+[2024-09-10 22:01:13] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-10 22:01:13] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-10 22:01:13] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-10 22:01:13] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-10 22:01:13] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-10 22:01:13] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-10 22:02:48] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-10 22:02:48] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-10 22:02:48] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-10 22:02:48] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-10 22:02:48] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-10 22:02:48] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-10 22:05:45] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-10 22:05:45] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-10 22:05:45] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-10 22:05:45] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-10 22:05:45] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-10 22:05:45] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-10 22:12:13] [ INFO ] [PacienteService:42] Paciente guardado con ID: 6
+[2024-09-10 22:12:13] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 6
+[2024-09-10 22:12:41] [ INFO ] [PacienteService:42] Paciente guardado con ID: 7
+[2024-09-10 22:12:41] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 7
+[2024-09-10 22:16:33] [ INFO ] [PacienteService:42] Paciente guardado con ID: 8
+[2024-09-10 22:16:33] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 8
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-10 22:16:43] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-10 22:17:14] [ WARN ] [PacienteService:29] Ya existe un paciente con el DNI: 12345
+[2024-09-12 20:48:13] [ INFO ] [OdontologoService:38] Odontólogo con ID: 6 encontrado exitosamente.
+[2024-09-12 20:48:19] [ WARN ] [OdontologoService:41] No se encontro el odontologo con ID: 10
+[2024-09-12 20:48:36] [ INFO ] [OdontologoService:38] Odontólogo con ID: 4 encontrado exitosamente.
+[2024-09-12 20:48:45] [ INFO ] [OdontologoService:38] Odontólogo con ID: 5 encontrado exitosamente.
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 20:48:48] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 20:49:09] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 20:49:32] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 20:49:44] [ WARN ] [PacienteService:54] No se encontró el paciente con ID: 20
+[2024-09-12 20:49:45] [ WARN ] [PacienteService:54] No se encontró el paciente con ID: 20
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 21:12:54] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 21:13:08] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 21:13:52] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 5, Domicilio ID: 5
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 6, Domicilio ID: 6
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 7, Domicilio ID: 7
+[2024-09-12 21:14:05] [ INFO ] [PacienteService:114] Paciente ID: 8, Domicilio ID: 8
+[2024-09-12 21:31:13] [ INFO ] [OdontologoService:94] Odontólogo con matrícula: 333 eliminado exitosamente.
+[2024-09-12 21:31:25] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: -1
+[2024-09-12 21:31:33] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: MAT-000
+[2024-09-12 21:31:50] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: a
+[2024-09-12 21:32:12] [ INFO ] [OdontologoService:94] Odontólogo con matrícula: 666 eliminado exitosamente.
+[2024-09-12 21:32:28] [ INFO ] [OdontologoService:30] Odontólogo con ID: 30 guardado exitosamente.
+[2024-09-12 21:32:41] [ INFO ] [OdontologoService:94] Odontólogo con matrícula: mat-@ eliminado exitosamente.
+[2024-09-12 21:35:35] [ INFO ] [OdontologoService:30] Odontólogo con ID: 1 guardado exitosamente.
+[2024-09-12 21:35:43] [ INFO ] [OdontologoService:30] Odontólogo con ID: 2 guardado exitosamente.
+[2024-09-12 21:35:52] [ INFO ] [OdontologoService:30] Odontólogo con ID: 3 guardado exitosamente.
+[2024-09-12 21:36:01] [ INFO ] [OdontologoService:94] Odontólogo con matrícula: 222a eliminado exitosamente.
+[2024-09-12 21:36:41] [ INFO ] [OdontologoService:94] Odontólogo con matrícula: 444w eliminado exitosamente.
+[2024-09-12 21:36:53] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: ewrwr
+[2024-09-12 21:37:01] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: ewrwr
+[2024-09-12 21:39:29] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: eww
+[2024-09-12 21:40:53] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: wwwww
+[2024-09-12 21:41:09] [ WARN ] [OdontologoService:96] No se encontró el odontólogo con matrícula: 465
+[2024-09-12 21:41:21] [ WARN ] [PacienteService:83] No se encontraron turnos en la base de datos.
+[2024-09-12 21:41:22] [ INFO ] [PacienteService:106] No se encontraron pacientes en la base de datos.
+[2024-09-12 21:49:46] [ WARN ] [PacienteService:83] No se encontraron turnos en la base de datos.
+[2024-09-12 21:49:54] [ INFO ] [PacienteService:106] No se encontraron pacientes en la base de datos.
+[2024-09-12 21:49:56] [ WARN ] [PacienteService:83] No se encontraron turnos en la base de datos.
+[2024-09-12 21:50:12] [ INFO ] [OdontologoService:30] Odontólogo con ID: 18 guardado exitosamente.
+[2024-09-12 21:50:17] [ INFO ] [OdontologoService:30] Odontólogo con ID: 19 guardado exitosamente.
+[2024-09-12 21:50:26] [ INFO ] [OdontologoService:30] Odontólogo con ID: 20 guardado exitosamente.
+[2024-09-12 21:51:21] [ INFO ] [OdontologoService:30] Odontólogo con ID: 1 guardado exitosamente.
+[2024-09-12 21:51:25] [ INFO ] [OdontologoService:30] Odontólogo con ID: 2 guardado exitosamente.
+[2024-09-12 21:51:34] [ INFO ] [OdontologoService:30] Odontólogo con ID: 3 guardado exitosamente.
+[2024-09-12 21:51:51] [ INFO ] [OdontologoService:30] Odontólogo con ID: 4 guardado exitosamente.
+[2024-09-12 21:52:05] [ INFO ] [PacienteService:42] Paciente guardado con ID: 1
+[2024-09-12 21:52:05] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 1
+[2024-09-12 21:52:11] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:52:11] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:52:53] [ INFO ] [PacienteService:42] Paciente guardado con ID: 2
+[2024-09-12 21:52:53] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 2
+[2024-09-12 21:53:20] [ INFO ] [PacienteService:42] Paciente guardado con ID: 3
+[2024-09-12 21:53:20] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 3
+[2024-09-12 21:53:24] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:53:24] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:53:24] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:53:24] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:53:44] [ INFO ] [PacienteService:42] Paciente guardado con ID: 4
+[2024-09-12 21:53:44] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 4
+[2024-09-12 21:53:47] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:53:47] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:53:47] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:53:47] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:53:47] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 21:53:48] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:53:48] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:53:48] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:53:48] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:53:48] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 21:55:29] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 21:55:29] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 21:55:29] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 21:55:29] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 21:55:29] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 22:01:45] [ INFO ] [OdontologoService:30] Odontólogo con ID: 5 guardado exitosamente.
+[2024-09-12 22:01:58] [ INFO ] [OdontologoService:38] Odontólogo con ID: 5 encontrado exitosamente.
+[2024-09-12 22:02:02] [ INFO ] [OdontologoService:38] Odontólogo con ID: 5 encontrado exitosamente.
+[2024-09-12 22:02:02] [ INFO ] [OdontologoService:59] Actualizando odontólogo con ID: 5
+[2024-09-12 22:02:02] [ INFO ] [OdontologoService:71] Odontólogo con ID: 5 actualizado exitosamente
+[2024-09-12 22:02:08] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:02:08] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:02:08] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 22:02:08] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 22:02:08] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 22:05:18] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:05:18] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:05:18] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 22:05:18] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 22:05:18] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 22:12:08] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:12:08] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:12:08] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 22:12:08] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 22:12:08] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 22:12:49] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:12:49] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:12:49] [ INFO ] [PacienteService:114] Paciente ID: 2, Domicilio ID: 2
+[2024-09-12 22:12:49] [ INFO ] [PacienteService:114] Paciente ID: 3, Domicilio ID: 3
+[2024-09-12 22:12:49] [ INFO ] [PacienteService:114] Paciente ID: 4, Domicilio ID: 4
+[2024-09-12 22:19:07] [ INFO ] [PacienteService:42] Paciente guardado con ID: 1
+[2024-09-12 22:19:07] [ INFO ] [PacienteService:43] Domicilio guardado con ID: 1
+[2024-09-12 22:19:10] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:19:10] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:26:18] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:26:18] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:28:40] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:28:40] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:31:32] [ WARN ] [PacienteService:54] No se encontró el paciente con ID: 10
+[2024-09-12 22:31:42] [ WARN ] [PacienteService:54] No se encontró el paciente con ID: -1
+[2024-09-12 22:42:24] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:42:24] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:43:38] [ INFO ] [PacienteService:73] Actualizando paciente con ID: 1
+[2024-09-12 22:43:38] [ INFO ] [PacienteService:84] Información del paciente antes de actualizar: Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:43:38] [ INFO ] [PacienteService:89] Paciente actualizado con ID: 1
+[2024-09-12 22:43:38] [ INFO ] [PacienteService:92] Domicilio del paciente actualizado con ID: 1
+[2024-09-12 22:43:41] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:43:41] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:44:34] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:44:34] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:44:34] [ WARN ] [OdontologoService:84] No se encontraron odontólogos en la base de datos
+[2024-09-12 22:44:51] [ INFO ] [OdontologoService:30] Odontólogo con ID: 1 guardado exitosamente.
+[2024-09-12 22:44:52] [ INFO ] [PacienteService:108] Pacientes: 
+[2024-09-12 22:44:52] [ INFO ] [PacienteService:114] Paciente ID: 1, Domicilio ID: 1
+[2024-09-12 22:45:51] [ WARN ] [PacienteService:83] No se encontraron turnos en la base de datos.
+[2024-09-12 22:45:53] [ WARN ] [PacienteService:93] Turno no encontrado con ID: 4
+[2024-09-12 22:45:56] [ WARN ] [PacienteService:83] No se encontraron turnos en la base de datos.
+[2024-09-12 22:45:58] [ WARN ] [PacienteService:93] Turno no encontrado con ID: 3
+[2024-09-12 22:48:20] [ WARN ] [PacienteService:93] Turno no encontrado con ID: 4
+[2025-06-11 16:22:47] [ WARN ] [OdontologoService:84] No se encontraron odontólogos en la base de datos
