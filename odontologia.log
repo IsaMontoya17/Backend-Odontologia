@@ -2,3 +2,9 @@
 2025-08-27 10:09:04 [http-nio-8090-exec-2] INFO  c.d.o.service.impl.PacienteService - Paciente ID: 111111111, Domicilio ID: 2
 2025-08-27 10:09:29 [http-nio-8090-exec-6] INFO  c.d.o.service.impl.OdontologoService - Odontólogo con ID: 12345678 encontrado exitosamente.
 2025-08-27 10:10:12 [http-nio-8090-exec-2] INFO  c.d.o.service.impl.PacienteService - Paciente con ID: 111111111 encontrado exitosamente.
+2025-08-27 12:17:28 [http-nio-8090-exec-1] WARN  c.d.o.service.impl.OdontologoService - No se puede borrar el odontologo porque no se encontró el odontólogo con ID: 12345678
+2025-08-27 12:17:32 [http-nio-8090-exec-3] INFO  c.d.o.service.impl.OdontologoService - Odontólogo con DNI: 12345678 guardado exitosamente.
+2025-08-27 12:18:38 [http-nio-8090-exec-8] INFO  c.d.o.service.impl.PacienteService - Paciente guardado con DNI: 111111111
+2025-08-27 12:18:38 [http-nio-8090-exec-8] INFO  c.d.o.service.impl.PacienteService - Domicilio guardado con ID: 1
+2025-08-27 12:18:41 [http-nio-8090-exec-10] INFO  c.d.o.service.impl.PacienteService - Pacientes: 
+2025-08-27 12:18:41 [http-nio-8090-exec-10] INFO  c.d.o.service.impl.PacienteService - Paciente ID: 111111111, Domicilio ID: 1

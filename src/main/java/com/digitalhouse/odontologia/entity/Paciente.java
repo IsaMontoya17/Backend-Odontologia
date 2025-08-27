@@ -14,11 +14,7 @@ import java.util.Set;
 @Getter
 @Setter
 @ToString
-public class Paciente {
-
-    @Id
-    @Column(length = 20, nullable = false, unique = true)
-    private String dni;
+public class Paciente extends User {
 
     @Column(length = 50, nullable = false)
     private String nombre;
@@ -37,4 +33,3 @@ public class Paciente {
     @JsonIgnore
     private Set<Turno> turnos;
 }
-

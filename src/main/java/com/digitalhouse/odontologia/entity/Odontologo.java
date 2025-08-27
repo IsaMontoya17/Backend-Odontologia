@@ -11,20 +11,13 @@ import java.util.Set;
 @Table(name = "Odontologos")
 @Getter
 @Setter
-public class Odontologo {
-
-    @Id
-    @Column(nullable = false, unique = true, length = 20)
-    private String dni;
+public class Odontologo extends User{
 
     @Column(nullable = false)
     private String apellido;
 
     @Column(nullable = false)
     private String nombre;
-
-    @Column(nullable = false, unique = true, length = 100)
-    private String email;
 
     @Column(length = 20)
     private String telefono;
