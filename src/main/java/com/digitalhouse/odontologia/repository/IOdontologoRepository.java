@@ -12,6 +12,5 @@ import java.util.Optional;
 
 @Repository
 public interface IOdontologoRepository extends JpaRepository<Odontologo, String> {
-    Optional<Odontologo> findByEmail(String email);
     List<Odontologo> findByEspecialidad(String especialidad);
 }

@@ -65,6 +65,20 @@ public class OdontologoController {
         }
     }
 
+    @GetMapping("/email/{email}")
+    public ResponseEntity<?> buscarPorEmail(@PathVariable String email) {
+        try {
+            Odontologo odontologo = odontologoService.buscarPorEmail(email);
+            return ResponseEntity.ok(odontologo);
+        } catch (ResourceNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Error interno al buscar el odontólogo: " + e.getMessage());
+        }
+    }
+
+
 
     @PatchMapping("/{dni}")
     public ResponseEntity<OdontologoResponseDTO> actualizarOdontologo(

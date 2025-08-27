@@ -3,9 +3,11 @@ package com.digitalhouse.odontologia.service.impl;
 import com.digitalhouse.odontologia.dto.OdontologoResponseDTO;
 import com.digitalhouse.odontologia.dto.OdontologoUpdateDTO;
 import com.digitalhouse.odontologia.entity.Odontologo;
+import com.digitalhouse.odontologia.entity.User;
 import com.digitalhouse.odontologia.exception.HandleConflictException;
 import com.digitalhouse.odontologia.exception.ResourceNotFoundException;
 import com.digitalhouse.odontologia.repository.IOdontologoRepository;
+import com.digitalhouse.odontologia.repository.IUserRepository;
 import com.digitalhouse.odontologia.service.IOdontologoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +23,9 @@ public class OdontologoService implements IOdontologoService {
 
     @Autowired
     IOdontologoRepository odontologoRepository;
+
+    @Autowired
+    IUserRepository userRepository;
 
     @Override
     public Odontologo guardar(Odontologo odontologo) throws HandleConflictException {
@@ -67,6 +72,17 @@ public class OdontologoService implements IOdontologoService {
     }
 
     @Override
+    public Odontologo buscarPorEmail(String email) throws ResourceNotFoundException {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new ResourceNotFoundException("Odontologo no encontrado con email: " + email));
+        if (user instanceof Odontologo odontologo) {
+            return odontologo;
+        } else {
+            throw new ResourceNotFoundException("El usuario con email " + email + " no es un odontólogo");
+        }
+    }
+
+    @Override
     public OdontologoResponseDTO actualizarOdontologo(String dni, OdontologoUpdateDTO dto) throws ResourceNotFoundException{
         Odontologo odontologo = odontologoRepository.findById(dni)
                 .orElseThrow(() -> new RuntimeException("Odontólogo no encontrado"));
@@ -79,7 +95,6 @@ public class OdontologoService implements IOdontologoService {
 
         Odontologo actualizado = odontologoRepository.save(odontologo);
 
-        // Convertir a DTO de respuesta
         OdontologoResponseDTO responseDTO = new OdontologoResponseDTO();
         responseDTO.setDni(actualizado.getDni());
         responseDTO.setApellido(actualizado.getApellido());

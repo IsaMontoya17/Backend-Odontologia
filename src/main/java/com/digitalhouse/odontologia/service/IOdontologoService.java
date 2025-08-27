@@ -12,6 +12,6 @@ public interface IOdontologoService {
     Odontologo buscarPorId(String dni) throws ResourceNotFoundException;
     void eliminar(String dni) throws ResourceNotFoundException;
     List<Odontologo> listar();
-
+    Odontologo buscarPorEmail(String email) throws ResourceNotFoundException;
     OdontologoResponseDTO actualizarOdontologo(String dni, OdontologoUpdateDTO dto) throws ResourceNotFoundException;
 }

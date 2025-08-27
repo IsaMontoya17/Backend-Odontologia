@@ -3,13 +3,12 @@ package com.digitalhouse.odontologia.service.impl;
 import com.digitalhouse.odontologia.dto.DomicilioUpdateDTO;
 import com.digitalhouse.odontologia.dto.PacienteResponseDTO;
 import com.digitalhouse.odontologia.dto.PacienteUpdateDTO;
-import com.digitalhouse.odontologia.entity.Domicilio;
-import com.digitalhouse.odontologia.entity.Paciente;
-import com.digitalhouse.odontologia.entity.Turno;
+import com.digitalhouse.odontologia.entity.*;
 import com.digitalhouse.odontologia.exception.BadRequestException;
 import com.digitalhouse.odontologia.exception.HandleConflictException;
 import com.digitalhouse.odontologia.exception.ResourceNotFoundException;
 import com.digitalhouse.odontologia.repository.IPacienteRepository;
+import com.digitalhouse.odontologia.repository.IUserRepository;
 import com.digitalhouse.odontologia.service.IPacienteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +26,9 @@ public class PacienteService implements IPacienteService {
 
     @Autowired
     IPacienteRepository pacienteRepository;
+
+    @Autowired
+    IUserRepository userRepository;
 
     @Override
     public Paciente guardar(Paciente paciente) throws HandleConflictException, BadRequestException {
@@ -101,6 +103,17 @@ public class PacienteService implements IPacienteService {
         }
 
         return todosLosPacientes;
+    }
+
+    @Override
+    public Paciente buscarPorEmail(String email) throws ResourceNotFoundException {
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new ResourceNotFoundException("Paciente no encontrado con email: " + email));
+        if (user instanceof Paciente paciente) {
+            return paciente;
+        } else {
+            throw new ResourceNotFoundException("El usuario con email " + email + " no es un paciente");
+        }
     }
 
     @Override

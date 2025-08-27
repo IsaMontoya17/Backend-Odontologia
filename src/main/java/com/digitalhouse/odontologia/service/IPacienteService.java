@@ -13,6 +13,6 @@ public interface IPacienteService {
     Paciente buscarPorId(String dni)throws ResourceNotFoundException;
     void eliminar(String dni) throws ResourceNotFoundException;
     List<Paciente> listar();
-
+    Paciente buscarPorEmail(String email) throws ResourceNotFoundException;
     PacienteResponseDTO actualizarPaciente(String dni, PacienteUpdateDTO dto) throws ResourceNotFoundException;
 }

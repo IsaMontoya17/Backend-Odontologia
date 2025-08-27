@@ -67,6 +67,19 @@ public class PacienteController {
         }
     }
 
+    @GetMapping("/email/{email}")
+    public ResponseEntity<?> buscarPorEmail(@PathVariable String email) {
+        try {
+            Paciente paciente = pacienteService.buscarPorEmail(email);
+            return ResponseEntity.ok(paciente);
+        } catch (ResourceNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Error interno al buscar el paciente: " + e.getMessage());
+        }
+    }
+
     @PatchMapping("/{dni}")
     public ResponseEntity<PacienteResponseDTO> actualizarPaciente(
             @PathVariable String dni,
