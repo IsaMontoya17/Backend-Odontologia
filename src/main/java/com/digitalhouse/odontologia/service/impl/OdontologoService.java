@@ -83,6 +83,19 @@ public class OdontologoService implements IOdontologoService {
     }
 
     @Override
+    public List<Odontologo> buscarPorEspecialidad(String especialidad) throws ResourceNotFoundException {
+        List<Odontologo> odontologos = odontologoRepository.findByEspecialidad(especialidad);
+
+        if (odontologos.isEmpty()) {
+            logger.warn("No se encontraron odontólogos con la especialidad: " + especialidad);
+            throw new ResourceNotFoundException("No se encontraron odontólogos con la especialidad: " + especialidad);
+        }
+
+        logger.info("Se encontraron " + odontologos.size() + " odontólogos con especialidad: " + especialidad);
+        return odontologos;
+    }
+
+    @Override
     public OdontologoResponseDTO actualizarOdontologo(String dni, OdontologoUpdateDTO dto) throws ResourceNotFoundException{
         Odontologo odontologo = odontologoRepository.findById(dni)
                 .orElseThrow(() -> new RuntimeException("Odontólogo no encontrado"));

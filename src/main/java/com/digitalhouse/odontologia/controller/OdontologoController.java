@@ -78,7 +78,18 @@ public class OdontologoController {
         }
     }
 
-
+    @GetMapping("/especialidad/{especialidad}")
+    public ResponseEntity<?> buscarPorEspecialidad(@PathVariable String especialidad) {
+        try {
+            List<Odontologo> odontologos = odontologoService.buscarPorEspecialidad(especialidad);
+            return ResponseEntity.ok(odontologos);
+        } catch (ResourceNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Error interno al buscar odontólogos por especialidad: " + e.getMessage());
+        }
+    }
 
     @PatchMapping("/{dni}")
     public ResponseEntity<OdontologoResponseDTO> actualizarOdontologo(
