@@ -63,6 +63,7 @@ public class PacienteService implements IPacienteService {
     public Paciente buscarPorId(String dni) throws ResourceNotFoundException {
         Optional<Paciente> pacienteEncontrado = pacienteRepository.findById(dni);
         if (pacienteEncontrado.isPresent()) {
+            logger.info("Paciente con ID: " + dni + " encontrado exitosamente.");
             return pacienteEncontrado.get();
         } else {
             logger.warn("No se encontró el paciente con ID: " + dni);
