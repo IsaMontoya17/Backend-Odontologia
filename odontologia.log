@@ -1,2 +1,3 @@
 2025-08-28 07:07:37 [http-nio-8090-exec-3] INFO  c.d.o.service.impl.PacienteService - Paciente con ID: 98765432 encontrado exitosamente.
 2025-08-28 07:10:28 [http-nio-8090-exec-4] INFO  c.d.o.service.impl.PacienteService - Paciente con ID: 98765432 encontrado exitosamente.
+2025-08-28 08:07:31 [http-nio-8090-exec-3] INFO  c.d.o.service.impl.OdontologoService - Odontólogo con DNI: 12345678 guardado exitosamente.

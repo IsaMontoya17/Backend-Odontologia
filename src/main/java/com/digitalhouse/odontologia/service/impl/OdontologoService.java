@@ -12,6 +12,7 @@ import com.digitalhouse.odontologia.service.IOdontologoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -27,12 +28,17 @@ public class OdontologoService implements IOdontologoService {
     @Autowired
     IUserRepository userRepository;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     @Override
     public Odontologo guardar(Odontologo odontologo) throws HandleConflictException {
         if (odontologoRepository.existsById(odontologo.getDni())) {
             logger.warn("Ya existe un odontólogo con el DNI: " + odontologo.getDni());
             throw new HandleConflictException("Ya existe un odontólogo con el DNI: " + odontologo.getDni());
         }
+
+        odontologo.setPassword(passwordEncoder.encode(odontologo.getPassword()));
 
         Odontologo odontologoGuardado = odontologoRepository.save(odontologo);
         logger.info("Odontólogo con DNI: " + odontologoGuardado.getDni() + " guardado exitosamente.");

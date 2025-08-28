@@ -13,6 +13,7 @@ import com.digitalhouse.odontologia.service.IPacienteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,6 +30,9 @@ public class PacienteService implements IPacienteService {
 
     @Autowired
     IUserRepository userRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     @Override
     public Paciente guardar(Paciente paciente) throws HandleConflictException, BadRequestException {
@@ -51,6 +55,8 @@ public class PacienteService implements IPacienteService {
             logger.warn("Todos los campos del paciente y del domicilio son obligatorios.");
             throw new BadRequestException("Todos los campos del paciente y del domicilio son obligatorios.");
         }
+
+        paciente.setPassword(passwordEncoder.encode(paciente.getPassword()));
 
         Paciente pacienteGuardado = pacienteRepository.save(paciente);
 
