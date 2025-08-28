@@ -9,6 +9,7 @@ import com.digitalhouse.odontologia.service.IOdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,6 +22,7 @@ public class OdontologoController {
     private IOdontologoService odontologoService;
 
     @GetMapping("/{dni}")
+    @PreAuthorize("hasRole('ADMIN') or (hasRole('ODONTOLOGO') and #dni == authentication.principal.dni)")
     public ResponseEntity<?> buscarPorId(@PathVariable String dni) {
         try {
             Odontologo odontologo = odontologoService.buscarPorId(dni);
@@ -31,6 +33,7 @@ public class OdontologoController {
     }
 
     @PostMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> guardar(@RequestBody Odontologo odontologo) {
         try {
             Odontologo odontologoGuardado = odontologoService.guardar(odontologo);
@@ -44,6 +47,7 @@ public class OdontologoController {
 
 
     @GetMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> listarTodos() {
         try {
             List<Odontologo> listaOdontologos = odontologoService.listar();
@@ -54,6 +58,7 @@ public class OdontologoController {
     }
 
     @DeleteMapping("/{dni}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<String> eliminar(@PathVariable String dni) {
         try {
             odontologoService.eliminar(dni);
@@ -66,6 +71,7 @@ public class OdontologoController {
     }
 
     @GetMapping("/email/{email}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> buscarPorEmail(@PathVariable String email) {
         try {
             Odontologo odontologo = odontologoService.buscarPorEmail(email);
@@ -79,6 +85,7 @@ public class OdontologoController {
     }
 
     @GetMapping("/especialidad/{especialidad}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> buscarPorEspecialidad(@PathVariable String especialidad) {
         try {
             List<Odontologo> odontologos = odontologoService.buscarPorEspecialidad(especialidad);
@@ -92,6 +99,7 @@ public class OdontologoController {
     }
 
     @PatchMapping("/{dni}")
+    @PreAuthorize("hasRole('ADMIN') or (hasRole('ODONTOLOGO') and #dni == authentication.principal.dni)")
     public ResponseEntity<OdontologoResponseDTO> actualizarOdontologo(
             @PathVariable String dni,
             @RequestBody OdontologoUpdateDTO dto) {

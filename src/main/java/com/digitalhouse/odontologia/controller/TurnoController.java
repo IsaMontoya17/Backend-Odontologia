@@ -8,6 +8,7 @@ import com.digitalhouse.odontologia.service.impl.TurnoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -23,6 +24,7 @@ public class TurnoController {
     private TurnoService turnoService;
 
     @PostMapping
+    @PreAuthorize("hasRole('PACIENTE') or hasRole('ADMIN')")
     public ResponseEntity<?> registrarTurno(@RequestBody Map<String, Object> request) {
         try {
             String odontologoId = String.valueOf(request.get("odontologoId").toString());
@@ -42,12 +44,14 @@ public class TurnoController {
     }
 
     @GetMapping
+    @PreAuthorize("hasRole('ADMIN') or hasRole('PACIENTE') or hasRole('ODONTOLOGO')")
     public ResponseEntity<List<Turno>> obtenerTurnos() {
         List<Turno> turnos = turnoService.obtenerTodosLosTurnos();
         return ResponseEntity.ok(turnos);
     }
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('PACIENTE') or hasRole('ADMIN')")
     public ResponseEntity<String> eliminar(@PathVariable Long id) {
         try {
             turnoService.eliminarTurno(id);
@@ -60,6 +64,7 @@ public class TurnoController {
     }
 
     @GetMapping("/fecha/{fecha}")
+    @PreAuthorize("hasRole('ADMIN') or hasRole('ODONTOLOGO') or hasRole('PACIENTE')")
     public ResponseEntity<?> buscarTurnosPorFecha(@PathVariable String fecha) {
         try {
             LocalDate fechaParseada = LocalDate.parse(fecha);

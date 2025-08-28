@@ -23,29 +23,38 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SecurityConfig {
 
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http, JwtAuthFilter jwtAuthFilter, UserDetailServiceImpl userDetailService) throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http, JwtAuthFilter jwtAuthFilter) throws Exception {
         return http
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
+                        // Rutas de autenticación
                         .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers(HttpMethod.POST, "/pacientes/**").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/pacientes/**").hasRole("PACIENTE")
-                        .requestMatchers(HttpMethod.PATCH, "/pacientes/**").hasRole("PACIENTE")
+
+                        // Pacientes
+                        .requestMatchers(HttpMethod.POST, "/pacientes/**").permitAll() // Registro paciente
+                        .requestMatchers(HttpMethod.GET, "/pacientes/**").hasAnyRole("PACIENTE", "ADMIN", "ODONTOLOGO")
+                        .requestMatchers(HttpMethod.PATCH, "/pacientes/**").hasAnyRole("PACIENTE", "ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/pacientes/**").hasRole("ADMIN")
+
+                        // Odontólogos
                         .requestMatchers(HttpMethod.POST, "/odontologos/**").hasRole("ADMIN")
                         .requestMatchers(HttpMethod.GET, "/odontologos/**").hasAnyRole("ODONTOLOGO", "ADMIN")
-                        .requestMatchers(HttpMethod.PATCH, "/odontologos/**").hasRole("ODONTOLOGO")
+                        .requestMatchers(HttpMethod.PATCH, "/odontologos/**").hasAnyRole("ODONTOLOGO", "ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/odontologos/**").hasRole("ADMIN")
-                        .requestMatchers(HttpMethod.POST, "/turnos/**").hasRole("PACIENTE")
-                        .requestMatchers(HttpMethod.GET, "/turnos/**").hasAnyRole("ODONTOLOGO", "ADMIN", "PACIENTE")
+
+                        // Turnos
+                        .requestMatchers(HttpMethod.POST, "/turnos/**").hasAnyRole("PACIENTE", "ADMIN")
+                        .requestMatchers(HttpMethod.GET, "/turnos/**").hasAnyRole("PACIENTE", "ODONTOLOGO", "ADMIN")
+                        .requestMatchers(HttpMethod.PATCH, "/turnos/**").hasAnyRole("ODONTOLOGO", "ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/turnos/**").hasRole("ADMIN")
+
                         .anyRequest().authenticated()
                 )
-                .authenticationProvider(authenticationProvider(userDetailService)) // aquí cambias null por userDetailService
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
     }
+
 
 
 

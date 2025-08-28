@@ -10,6 +10,7 @@ import com.digitalhouse.odontologia.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class PacienteController {
     private IPacienteService pacienteService;
 
     @GetMapping("/{dni}")
+    @PreAuthorize("hasRole('ADMIN') or (hasRole('PACIENTE') and #dni == authentication.principal.dni)")
     public ResponseEntity<?> buscarPorId(@PathVariable String dni) {
         try {
             Paciente paciente = pacienteService.buscarPorId(dni);
@@ -46,6 +48,7 @@ public class PacienteController {
     }
 
     @GetMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> listarTodos() {
         try {
             List<Paciente> listaPacientes = pacienteService.listar();
@@ -56,6 +59,7 @@ public class PacienteController {
     }
 
     @DeleteMapping("/{dni}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<String> eliminar(@PathVariable String dni) {
         try {
             pacienteService.eliminar(dni);
@@ -68,6 +72,7 @@ public class PacienteController {
     }
 
     @GetMapping("/email/{email}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<?> buscarPorEmail(@PathVariable String email) {
         try {
             Paciente paciente = pacienteService.buscarPorEmail(email);
@@ -81,6 +86,7 @@ public class PacienteController {
     }
 
     @PatchMapping("/{dni}")
+    @PreAuthorize("hasRole('ADMIN') or (hasRole('PACIENTE') and #dni == authentication.principal.dni)")
     public ResponseEntity<PacienteResponseDTO> actualizarPaciente(
             @PathVariable String dni,
             @RequestBody PacienteUpdateDTO dto) {
